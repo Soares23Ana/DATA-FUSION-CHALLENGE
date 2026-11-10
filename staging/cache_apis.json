@@ -1,0 +1,493 @@
+{
+ "feriados": {
+  "2026": [
+   {
+    "data": "2026-01-01",
+    "nome": "Confraternização mundial",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-02-16",
+    "nome": "Carnaval",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-02-17",
+    "nome": "Carnaval",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-04-03",
+    "nome": "Sexta-feira Santa",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-04-05",
+    "nome": "Páscoa",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-04-21",
+    "nome": "Tiradentes",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-05-01",
+    "nome": "Dia do trabalho",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-06-04",
+    "nome": "Corpus Christi",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-09-07",
+    "nome": "Independência do Brasil",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-10-12",
+    "nome": "Nossa Senhora Aparecida",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-11-02",
+    "nome": "Finados",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-11-15",
+    "nome": "Proclamação da República",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-11-20",
+    "nome": "Dia da consciência negra",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2026-12-25",
+    "nome": "Natal",
+    "tipo": "nacional"
+   }
+  ],
+  "2027": [
+   {
+    "data": "2027-01-01",
+    "nome": "Confraternização mundial",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-02-08",
+    "nome": "Carnaval",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-02-09",
+    "nome": "Carnaval",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-03-26",
+    "nome": "Sexta-feira Santa",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-03-28",
+    "nome": "Páscoa",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-04-21",
+    "nome": "Tiradentes",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-05-01",
+    "nome": "Dia do trabalho",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-05-27",
+    "nome": "Corpus Christi",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-09-07",
+    "nome": "Independência do Brasil",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-10-12",
+    "nome": "Nossa Senhora Aparecida",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-11-02",
+    "nome": "Finados",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-11-15",
+    "nome": "Proclamação da República",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-11-20",
+    "nome": "Dia da consciência negra",
+    "tipo": "nacional"
+   },
+   {
+    "data": "2027-12-25",
+    "nome": "Natal",
+    "tipo": "nacional"
+   }
+  ]
+ },
+ "cep": {
+  "13703034": {
+   "cep": "13703034",
+   "cidade": "Casa Branca",
+   "uf": "SP",
+   "bairro": "Chácara Boa Esperança",
+   "logradouro": "Rua 2"
+  },
+  "13703606": {
+   "cep": "13703606",
+   "cidade": "Casa Branca",
+   "uf": "SP",
+   "bairro": "Jardim Nova Casa Branca",
+   "logradouro": "Rua 3"
+  },
+  "13708030": {
+   "cep": "13708030",
+   "cidade": "Casa Branca",
+   "uf": "SP",
+   "bairro": "Centro (Lagoa Branca)",
+   "logradouro": "Rua Pará"
+  },
+  "13731040": {
+   "cep": "13731040",
+   "cidade": "Mococa",
+   "uf": "SP",
+   "bairro": "Vila Lambari",
+   "logradouro": "Rua Acre"
+  },
+  "13734542": {
+   "cep": "13734542",
+   "cidade": "Mococa",
+   "uf": "SP",
+   "bairro": "Residencial Jardim José Justi II",
+   "logradouro": "Rua 7"
+  },
+  "13739079": {
+   "cep": "13739079",
+   "cidade": "Mococa",
+   "uf": "SP",
+   "bairro": "Distrito Industrial II",
+   "logradouro": "Rua Dez"
+  },
+  "13750104": {
+   "cep": "13750104",
+   "cidade": "Mococa",
+   "uf": "SP",
+   "bairro": "Jardim Julieta Lima Dias (Igaraí)",
+   "logradouro": "Rua 6"
+  },
+  "13781046": {
+   "cep": "13781046",
+   "cidade": "Divinolândia",
+   "uf": "SP",
+   "bairro": "Residencial Acácia",
+   "logradouro": "Rua 3"
+  },
+  "13782040": {
+   "cep": "13782040",
+   "cidade": "Divinolândia",
+   "uf": "SP",
+   "bairro": "Loteamento Santo Antônio",
+   "logradouro": "Rua 7"
+  },
+  "13782044": {
+   "cep": "13782044",
+   "cidade": "Divinolândia",
+   "uf": "SP",
+   "bairro": "Loteamento Santo Antônio",
+   "logradouro": "Rua 8"
+  },
+  "13792044": {
+   "cep": "13792044",
+   "cidade": "São Sebastião da Grama",
+   "uf": "SP",
+   "bairro": "Jardim Primavera",
+   "logradouro": "Rua Um"
+  },
+  "13792082": {
+   "cep": "13792082",
+   "cidade": "São Sebastião da Grama",
+   "uf": "SP",
+   "bairro": "Jardim São Judas Tadeu",
+   "logradouro": "Rua Bahia"
+  },
+  "13796168": {
+   "cep": "13796168",
+   "cidade": "São Sebastião da Grama",
+   "uf": "SP",
+   "bairro": "Nossa Senhora Aparecida",
+   "logradouro": "Rua Nove"
+  },
+  "13841083": {
+   "cep": "13841083",
+   "cidade": "Mogi Guaçu",
+   "uf": "SP",
+   "bairro": "Jardim Nova Alvorada",
+   "logradouro": "Rua 1"
+  },
+  "13846435": {
+   "cep": "13846435",
+   "cidade": "Mogi Guaçu",
+   "uf": "SP",
+   "bairro": "Jardim Santa Rita",
+   "logradouro": "Rua 3"
+  },
+  "13848430": {
+   "cep": "13848430",
+   "cidade": "Mogi Guaçu",
+   "uf": "SP",
+   "bairro": "Jardim Califórnia",
+   "logradouro": "Rua 1"
+  },
+  "13860690": {
+   "cep": "13860690",
+   "cidade": "Aguaí",
+   "uf": "SP",
+   "bairro": "Condomínio Terras de Aguaí",
+   "logradouro": "Rua Um"
+  },
+  "13860710": {
+   "cep": "13860710",
+   "cidade": "Aguaí",
+   "uf": "SP",
+   "bairro": "Condomínio Terras de São Paulo",
+   "logradouro": "Rua Um"
+  },
+  "13864310": {
+   "cep": "13864310",
+   "cidade": "Aguaí",
+   "uf": "SP",
+   "bairro": "Distrito Industrial Juliano Sereni",
+   "logradouro": "Rua H"
+  },
+  "13866526": {
+   "cep": "13866526",
+   "cidade": "Aguaí",
+   "uf": "SP",
+   "bairro": "Residencial Monte Líbano II",
+   "logradouro": "Rua 3"
+  },
+  "13870220": {
+   "cep": "13870220",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Centro",
+   "logradouro": "Rua Benjamin Constant"
+  },
+  "13874000": {
+   "cep": "13874000",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Jardim Santo André",
+   "logradouro": "Avenida Doutor Oscar Pirajá Martins"
+  },
+  "13874885": {
+   "cep": "13874885",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Loteamento Residencial Valle da Prata",
+   "logradouro": "Rua 2"
+  },
+  "13875043": {
+   "cep": "13875043",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Vila Brasil",
+   "logradouro": "Rua Um"
+  },
+  "13875570": {
+   "cep": "13875570",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Parque das Bromélias",
+   "logradouro": "Rua 4"
+  },
+  "13876441": {
+   "cep": "13876441",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Jardim Amélia",
+   "logradouro": "Rua Dois"
+  },
+  "13876781": {
+   "cep": "13876781",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Jardim das Flores",
+   "logradouro": "Rua Dois"
+  },
+  "13877097": {
+   "cep": "13877097",
+   "cidade": "São João da Boa Vista",
+   "uf": "SP",
+   "bairro": "Jardim dos Jacarandás Fase 2",
+   "logradouro": "Rua 16"
+  },
+  "13880232": {
+   "cep": "13880232",
+   "cidade": "Vargem Grande do Sul",
+   "uf": "SP",
+   "bairro": "Novo Jardim São Paulo",
+   "logradouro": "Rua 1"
+  },
+  "13882606": {
+   "cep": "13882606",
+   "cidade": "Vargem Grande do Sul",
+   "uf": "SP",
+   "bairro": "Residencial Colina II",
+   "logradouro": "Rua Um"
+  },
+  "13882614": {
+   "cep": "13882614",
+   "cidade": "Vargem Grande do Sul",
+   "uf": "SP",
+   "bairro": "Residencial Colina II",
+   "logradouro": "Rua Dez"
+  },
+  "13884496": {
+   "cep": "13884496",
+   "cidade": "Vargem Grande do Sul",
+   "uf": "SP",
+   "bairro": "Jardim Itália",
+   "logradouro": "Rua Pisa"
+  },
+  "13893207": {
+   "cep": "13893207",
+   "cidade": "Águas da Prata",
+   "uf": "SP",
+   "bairro": "Vila Três Irmãos",
+   "logradouro": "Rua dos Ruiz"
+  },
+  "13896032": {
+   "cep": "13896032",
+   "cidade": "Águas da Prata",
+   "uf": "SP",
+   "bairro": "Cascata",
+   "logradouro": "Rua São José"
+  },
+  "13899006": {
+   "cep": "13899006",
+   "cidade": "Águas da Prata",
+   "uf": "SP",
+   "bairro": "Centro (São Roque da Fartura)",
+   "logradouro": "Rua Dom Alberto"
+  },
+  "13973865": {
+   "cep": "13973865",
+   "cidade": "Itapira",
+   "uf": "SP",
+   "bairro": "Chácaras Santa Maria",
+   "logradouro": "Rua 5"
+  },
+  "13988034": {
+   "cep": "13988034",
+   "cidade": "Itapira",
+   "uf": "SP",
+   "bairro": "Conjunto Habitacional Dona Eugênia Carmem Moyses (Eleutério)",
+   "logradouro": "Rua 2"
+  },
+  "13990017": {
+   "cep": "13990017",
+   "cidade": "Espírito Santo do Pinhal",
+   "uf": "SP",
+   "bairro": "Centro",
+   "logradouro": "Rua Cyro Corsi"
+  },
+  "13990107": {
+   "cep": "13990107",
+   "cidade": "Espírito Santo do Pinhal",
+   "uf": "SP",
+   "bairro": "Centro",
+   "logradouro": "Rua Tiradentes"
+  },
+  "13992002": {
+   "cep": "13992002",
+   "cidade": "Espírito Santo do Pinhal",
+   "uf": "SP",
+   "bairro": "Vila Monte Negro",
+   "logradouro": "Rua dos Motas"
+  },
+  "13992034": {
+   "cep": "13992034",
+   "cidade": "Espírito Santo do Pinhal",
+   "uf": "SP",
+   "bairro": "Largo São João",
+   "logradouro": "Rua Luiz Gama"
+  },
+  "37701000": {
+   "cep": "37701000",
+   "cidade": "Poços de Caldas",
+   "uf": "MG",
+   "bairro": "Centro",
+   "logradouro": "Rua Assis Figueiredo"
+  },
+  "37701326": {
+   "cep": "37701326",
+   "cidade": "Poços de Caldas",
+   "uf": "MG",
+   "bairro": "Jardim Santa Augusta",
+   "logradouro": "Rua L"
+  },
+  "37704390": {
+   "cep": "37704390",
+   "cidade": "Poços de Caldas",
+   "uf": "MG",
+   "bairro": "Vale das Antas",
+   "logradouro": "Rua H"
+  },
+  "37706236": {
+   "cep": "37706236",
+   "cidade": "Poços de Caldas",
+   "uf": "MG",
+   "bairro": "Parque São Sebastião",
+   "logradouro": "Rua A"
+  },
+  "37716022": {
+   "cep": "37716022",
+   "cidade": "Poços de Caldas",
+   "uf": "MG",
+   "bairro": "Conjunto União",
+   "logradouro": "Rua B"
+  },
+  "37840124": {
+   "cep": "37840124",
+   "cidade": "Andradas",
+   "uf": "MG",
+   "bairro": "Jardim Lagoa Dourada",
+   "logradouro": "Rua B"
+  },
+  "37841060": {
+   "cep": "37841060",
+   "cidade": "Andradas",
+   "uf": "MG",
+   "bairro": "Jardim Giaretta",
+   "logradouro": "Rua B"
+  },
+  "37841240": {
+   "cep": "37841240",
+   "cidade": "Andradas",
+   "uf": "MG",
+   "bairro": "Vila Botelho",
+   "logradouro": "Rua D"
+  }
+ }
+}

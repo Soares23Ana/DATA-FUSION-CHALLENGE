@@ -1,0 +1,621 @@
+ra;nome;cpf;curso;periodo;cep;frequencia_media;media_geral;disciplinas_em_risco;parcelas_atrasadas;valor_em_aberto;protocolos_sinal_evasao;protocolos_abertos
+202200086;André Nunes Costa;62104810353;Medicina Veterinária;10;13874885;62.8;3.51;4;1;2390.0;0;0
+202200090;Isabela Fernandes Costa;29492442116;Medicina Veterinária;10;13875570;75.7;5.81;3;0;0.0;0;0
+202200115;Daniel Nunes Silva;16441320797;Medicina Veterinária;10;13882614;92.4;7.95;0;0;0.0;0;0
+202200154;Júlia Vieira Dias;34016405009;Medicina Veterinária;9;13973865;94.1;7.35;0;1;2151.0;1;0
+202200258;Caio Silva Lima;39970937413;Medicina Veterinária;9;13708030;93.4;7.48;0;0;0.0;0;0
+202200351;Felipe Gomes Carvalho;21435033779;Medicina Veterinária;10;13874885;92.4;7.83;0;1;2151.0;0;0
+202200368;Rafael Rodrigues Machado;71520156430;Medicina Veterinária;10;13703034;64.9;3.39;4;1;2151.0;1;0
+202200371;Felipe Nascimento Marques;99856968755;Medicina Veterinária;10;37841060;95.8;7.65;1;0;0.0;1;0
+202200395;Lucas Dias Mendes;90358243424;Medicina Veterinária;10;13734542;95.1;8.75;0;0;0.0;1;0
+202200412;Vinícius Mendes Carvalho;16695846154;Medicina Veterinária;10;13703034;92.7;7.61;0;0;0.0;2;1
+202200421;Carla Dias Rocha;25129412486;Medicina Veterinária;10;13841083;92.0;8.76;0;0;0.0;0;0
+202200454;Vitória Oliveira Ferreira;57896759560;Medicina Veterinária;9;13877097;69.4;2.55;4;1;2390.0;2;0
+202200509;Rodrigo Moreira Marques;00662446410;Medicina Veterinária;10;13792044;90.3;8.19;0;1;2390.0;1;0
+202200543;Vitória Machado Costa;58609817750;Medicina Veterinária;9;13874885;94.4;8.56;0;0;0.0;1;1
+202300003;Amanda Rodrigues Lopes;77848648842;Direito;7;13782044;89.6;7.89;0;0;0.0;0;0
+202300006;Vitória Dias Gomes;77992298373;Ciência da Computação;8;37706236;98.3;7.51;0;0;0.0;0;0
+202300008;Helena Nunes Marques;20525898301;Psicologia;7;13899006;92.0;7.4;0;1;1390.0;1;0
+202300014;Beatriz Nunes Moreira;28025822087;Agronomia;7;13782040;62.8;2.48;4;2;2980.0;0;0
+202300017;Beatriz Rocha Costa;20484259920;Medicina Veterinária;7;13870220;91.7;7.94;0;0;0.0;0;0
+202300021;Larissa Ferreira Nascimento;26978043826;Administração;8;13875043;90.3;6.99;1;0;0.0;0;0
+202300027;Enzo Dias Santos;80370412125;Direito;8;13874000;92.0;7.4;0;0;0.0;0;0
+202300029;Enzo Souza Rodrigues;17695851922;Administração;8;13870220;95.1;8.16;0;0;0.0;1;0
+202300031;André Carvalho Lopes;21980334617;Engenharia Civil;8;13876441;91.3;7.74;0;0;0.0;1;0
+202300036;Paula Santos Fernandes;46439725807;Administração;7;13990017;92.4;8.26;0;0;0.0;0;0
+202300043;Helena Machado Moreira;67090727629;Psicologia;7;13875570;88.9;7.3;1;0;0.0;1;1
+202300047;Diego Alves Moreira;73305703032;Direito;8;13703034;94.1;7.08;1;0;0.0;1;0
+202300050;Caio Carvalho Nunes;59734812475;Direito;7;13893207;92.7;8.06;0;0;0.0;1;0
+202300052;Murilo Marques Nunes;60821961209;Medicina Veterinária;8;13874000;91.7;7.2;1;0;0.0;0;0
+202300060;Yasmin Dias Martins;21899033270;Engenharia Civil;8;37701326;93.4;7.2;0;0;0.0;0;0
+202300063;Eduarda Freitas Silva;95444615150;Psicologia;7;13874885;54.9;3.63;4;1;1112.0;5;1
+202300068;Camila Soares Soares;99961797884;Direito;8;13882614;78.5;6.21;1;2;2682.0;0;0
+202300069;Diego Fernandes Fernandes;31624487190;Enfermagem;8;13739079;98.3;7.25;1;0;0.0;0;0
+202300073;Leonardo Mendes Oliveira;26958359062;Administração;7;13870220;88.9;6.61;1;0;0.0;1;0
+202300076;Leonardo Rodrigues Machado;05786051803;Medicina Veterinária;8;37841060;92.7;7.86;0;0;0.0;0;1
+202300077;Larissa Almeida Almeida;44527436848;Ciência da Computação;7;13870220;88.2;5.86;1;3;3741.0;0;1
+202300079;Thiago Mendes Lima;78376891782;Agronomia;7;37841060;81.6;5.31;3;1;1192.0;0;0
+202300083;Larissa Rodrigues Gomes;04718480779;Engenharia Civil;7;13875570;83.7;5.91;2;1;1590.0;1;0
+202300084;Otávio Fernandes Freitas;51904708730;Agronomia;7;37716022;68.8;4.5;4;2;2980.0;1;0
+202300094;Gustavo Martins Rodrigues;01108753035;Medicina Veterinária;7;13973865;93.4;7.21;0;0;0.0;0;0
+202300096;Caio Vieira Vieira;79464321008;Psicologia;7;13874885;96.5;6.94;0;0;0.0;0;1
+202300107;Daniel Costa Oliveira;46598658438;Direito;8;13876441;70.5;3.0;4;1;1192.0;3;1
+202300108;André Fernandes Martins;14861241510;Agronomia;7;13875570;76.7;5.4;3;2;2831.0;1;0
+202300119;Isabela Soares Ribeiro;66776344850;Psicologia;8;13848430;94.1;7.07;0;0;0.0;0;0
+202300131;Lucas Rocha Barbosa;70265432456;Psicologia;8;13990107;89.2;7.9;1;0;0.0;0;0
+202300139;Otávio Almeida Nascimento;30427720982;Enfermagem;8;13988034;90.3;7.34;0;0;0.0;0;0
+202300149;Carla Marques Mendes;56449491507;Direito;8;37840124;97.9;7.58;1;0;0.0;0;0
+202300164;Leonardo Souza Souza;85404850957;Agronomia;7;13880232;94.4;8.04;0;0;0.0;1;1
+202300170;Paula Moreira Marques;08438522599;Engenharia Civil;8;13734542;89.9;5.08;3;1;1590.0;0;0
+202300175;Daniel Freitas Andrade;07048741805;Engenharia Civil;7;13708030;94.4;8.64;0;0;0.0;0;0
+202300182;Mariana Marques Freitas;64900639133;Psicologia;7;13841083;93.8;8.11;0;0;0.0;0;0
+202300184;Otávio Soares Costa;55376740765;Enfermagem;7;13877097;90.6;7.04;0;0;0.0;0;0
+202300186;Camila Carvalho Moreira;05696784399;Ciência da Computação;7;37840124;82.6;5.63;3;0;0.0;0;0
+202300195;Enzo Freitas Fernandes;01660180660;Agronomia;7;13782044;85.8;4.96;4;0;0.0;3;1
+202300201;João Marques Silva;45359862661;Psicologia;7;13731040;96.9;7.89;0;0;0.0;0;0
+202300202;Yasmin Ribeiro Rocha;21635443385;Administração;8;13877097;64.2;2.77;4;2;1584.0;1;1
+202300206;Eduarda Gomes Fernandes;05549195321;Administração;7;13882614;89.9;7.0;0;0;0.0;0;0
+202300208;Beatriz Oliveira Lopes;46306844503;Engenharia Civil;8;13875570;78.8;6.5;1;1;1590.0;1;0
+202300209;Larissa Marques Costa;91943840296;Administração;8;37701326;92.7;7.53;0;0;0.0;0;0
+202300215;Camila Fernandes Andrade;47220136919;Enfermagem;7;13882614;94.1;7.39;0;0;0.0;0;0
+202300217;Henrique Oliveira Vieira;27662818519;Engenharia Civil;7;13882606;89.6;7.78;0;0;0.0;1;0
+202300221;Daniel Machado Lima;53315703302;Enfermagem;7;13731040;92.0;7.82;0;0;0.0;0;0
+202300223;Ana Martins Nunes;79633591570;Engenharia Civil;8;13876441;95.1;7.5;0;0;0.0;0;0
+202300224;Ana Ferreira Nascimento;66316038895;Administração;8;37704390;96.5;8.22;0;0;0.0;0;2
+202300226;Camila Fernandes Silva;32794568604;Enfermagem;8;13875043;80.2;5.9;3;1;1190.0;0;0
+202300227;Vitória Lopes Dias;74417127506;Engenharia Civil;8;13876781;72.2;3.79;4;0;0.0;2;0
+202300229;Rafael Costa Rocha;10992434246;Medicina Veterinária;8;13874885;94.1;7.72;1;0;0.0;1;0
+202300232;Diego Lima Santos;53372076443;Administração;7;37704390;90.3;8.05;0;0;0.0;0;0
+202300233;Leonardo Freitas Dias;90146277856;Direito;7;13992034;81.6;5.36;3;0;0.0;2;0
+202300234;Amanda Ferreira Santos;57138605153;Administração;8;13992002;92.4;7.06;0;0;0.0;1;1
+202300235;Caio Martins Ribeiro;06477797496;Administração;8;13860690;90.3;7.35;0;0;0.0;1;0
+202300236;Júlia Almeida Barbosa;83313144500;Psicologia;8;13877097;90.6;8.59;1;0;0.0;0;0
+202300237;Letícia Pereira Machado;36623227490;Agronomia;7;13796168;93.4;7.24;0;0;0.0;0;0
+202300246;Rafael Alves Almeida;55477122722;Enfermagem;7;13703034;82.6;5.51;4;2;2142.0;1;0
+202300255;Diego Barbosa Lima;83931878341;Ciência da Computação;8;37841240;91.7;8.96;0;0;0.0;1;0
+202300256;André Souza Costa;86404865491;Psicologia;8;13882606;94.1;7.51;0;0;0.0;1;0
+202300261;Fernanda Martins Gomes;99802962759;Enfermagem;8;13874000;93.8;7.38;0;0;0.0;1;0
+202300266;Matheus Rocha Rocha;26901723563;Medicina Veterinária;8;13877097;94.8;7.6;0;0;0.0;0;0
+202300267;Pedro Alves Rocha;63570597300;Agronomia;8;13882606;91.0;8.02;0;0;0.0;0;0
+202300268;Otávio Gomes Costa;51544940246;Direito;8;13880232;95.1;7.82;0;0;0.0;0;1
+202300277;Carla Souza Martins;93975675780;Engenharia Civil;8;13874885;94.8;7.31;0;0;0.0;0;0
+202300278;André Dias Souza;54812137535;Administração;7;13703606;92.0;7.81;0;0;0.0;0;0
+202300280;Caio Barbosa Soares;31151207705;Direito;8;37716022;93.1;7.58;0;0;0.0;1;0
+202300282;Vinícius Rocha Freitas;28022088960;Administração;7;37706236;91.3;7.51;0;0;0.0;0;1
+202300297;Camila Nascimento Marques;50387630490;Administração;7;13782040;80.6;5.61;3;0;0.0;0;0
+202300304;André Soares Ribeiro;86891909619;Enfermagem;8;37841240;69.4;3.13;4;2;2142.0;0;0
+202300305;Yasmin Almeida Soares;33881618368;Engenharia Civil;8;37701000;92.0;8.19;0;0;0.0;0;0
+202300313;Thiago Moreira Vieira;92966779470;Medicina Veterinária;7;13796168;92.4;7.22;0;0;0.0;0;0
+202300314;Otávio Costa Lima;65139752042;Engenharia Civil;8;13992002;96.9;8.0;0;1;1431.0;1;0
+202300315;Daniel Rodrigues Ribeiro;10053672801;Administração;7;13860690;95.5;7.99;0;0;0.0;0;0
+202300317;Leonardo Alves Alves;67901463694;Enfermagem;8;13792082;93.8;7.98;0;1;1190.0;1;2
+202300320;Leonardo Pereira Nascimento;78977424232;Engenharia Civil;8;13877097;93.4;7.03;0;0;0.0;1;0
+202300321;Lucas Machado Rodrigues;55064953151;Engenharia Civil;7;13876441;92.7;7.66;1;0;0.0;1;0
+202300326;Natália Martins Rocha;08653019308;Administração;8;13876441;90.6;8.21;0;0;0.0;0;0
+202300335;Isabela Nunes Rodrigues;44324366039;Medicina Veterinária;8;13875043;92.7;7.26;0;1;2151.0;1;0
+202300340;Thiago Soares Lima;07657796766;Administração;7;37706236;92.7;7.05;0;0;0.0;0;0
+202300344;Eduarda Lopes Vieira;97780394530;Engenharia Civil;8;13846435;92.0;7.88;0;0;0.0;0;0
+202300346;Caio Fernandes Ribeiro;87058702241;Engenharia Civil;7;13848430;76.0;5.65;4;1;1590.0;0;0
+202300349;Henrique Dias Fernandes;94003532511;Ciência da Computação;8;37841240;94.8;7.83;0;0;0.0;1;0
+202300350;Sofia Moreira Moreira;74793494242;Enfermagem;8;13870220;91.7;8.15;0;1;1071.0;0;0
+202300352;Gustavo Vieira Oliveira;26365960972;Administração;8;13874000;95.1;7.85;0;0;0.0;2;1
+202300354;Caio Vieira Gomes;56453529718;Psicologia;8;13992002;96.2;7.67;0;1;1390.0;0;0
+202300360;Leonardo Silva Martins;86622229350;Medicina Veterinária;8;13846435;81.3;5.81;3;0;0.0;2;1
+202300361;Isabela Carvalho Ferreira;61512609889;Ciência da Computação;8;13874885;92.7;7.09;0;0;0.0;0;0
+202300362;Eduarda Machado Pereira;69118302653;Enfermagem;7;13734542;94.1;6.47;1;0;0.0;1;0
+202300366;Fernanda Rocha Oliveira;26529567526;Direito;7;13703034;94.1;7.65;0;0;0.0;0;0
+202300370;Isabela Martins Costa;84742269969;Enfermagem;8;13708030;92.4;6.94;0;0;0.0;1;0
+202300378;Beatriz Moreira Ribeiro;26471612320;Direito;8;37701326;80.6;5.1;4;0;0.0;0;0
+202300382;Vinícius Lopes Santos;55397890243;Engenharia Civil;8;13992034;91.0;7.99;0;0;0.0;0;0
+202300386;Eduarda Santos Almeida;66100364387;Psicologia;7;13876781;92.0;8.31;0;0;0.0;0;0
+202300388;Henrique Rocha Mendes;63649607239;Ciência da Computação;8;13990107;94.4;8.03;0;0;0.0;2;0
+202300396;Mariana Lopes Souza;48425716160;Medicina Veterinária;7;13992034;96.2;7.67;0;0;0.0;0;0
+202300400;Natália Pereira Barbosa;21195005920;Enfermagem;8;13874000;92.7;7.93;1;1;1071.0;1;0
+202300402;Carla Lima Moreira;08088676100;Psicologia;7;13876781;90.6;7.61;0;0;0.0;0;0
+202300404;Lívia Rodrigues Alves;17752328324;Medicina Veterinária;8;13992002;94.4;7.03;1;0;0.0;1;0
+202300405;Larissa Souza Nunes;45128266702;Engenharia Civil;7;13875043;83.7;4.95;4;0;0.0;1;0
+202300406;Letícia Martins Andrade;56155319324;Engenharia Civil;8;13882614;93.8;8.11;0;1;1590.0;1;0
+202300409;Camila Oliveira Silva;11664139265;Direito;8;13874885;95.5;7.4;0;0;0.0;1;0
+202300410;Letícia Ribeiro Machado;57648491605;Ciência da Computação;7;13973865;80.9;6.21;1;0;0.0;1;1
+202300411;Eduarda Ribeiro Dias;99456508900;Engenharia Civil;7;13874000;94.4;7.41;0;0;0.0;1;0
+202300415;Isabela Ferreira Nunes;03096989010;Direito;7;13870220;83.7;5.2;4;0;0.0;1;0
+202300417;Henrique Rodrigues Andrade;91013134281;Direito;8;13990107;90.3;7.36;0;0;0.0;0;0
+202300418;Felipe Fernandes Dias;53375556691;Direito;7;13874885;94.1;7.38;0;0;0.0;2;1
+202300425;Bruno Mendes Andrade;89597394642;Administração;8;13877097;97.9;8.25;0;1;990.0;1;0
+202300445;Murilo Almeida Soares;72012012477;Ciência da Computação;7;13792082;92.0;8.23;0;0;0.0;1;1
+202300450;Henrique Ferreira Ribeiro;28840525777;Psicologia;8;13841083;95.8;7.64;0;0;0.0;0;0
+202300453;Henrique Pereira Almeida;08348411500;Agronomia;7;13899006;94.1;8.21;0;1;1490.0;0;0
+202300460;Enzo Nascimento Souza;25347175370;Engenharia Civil;7;13870220;82.3;6.18;1;2;3021.0;0;1
+202300464;Rafael Ferreira Machado;82597146987;Ciência da Computação;8;13992002;91.3;8.65;0;0;0.0;0;1
+202300476;Carla Freitas Souza;25063258328;Agronomia;7;13792044;90.3;7.41;0;0;0.0;1;0
+202300482;Mariana Rocha Lima;40701430257;Administração;7;13876441;81.9;5.42;3;2;1584.0;1;0
+202300485;Gustavo Nascimento Freitas;00441333320;Enfermagem;7;13884496;67.0;3.33;4;2;2261.0;0;0
+202300494;Natália Nascimento Oliveira;85451272433;Enfermagem;7;13876781;63.9;2.85;4;4;4284.0;0;0
+202300500;João Nunes Dias;72621612610;Agronomia;7;13876781;93.4;7.65;0;0;0.0;0;0
+202300506;Isabela Ferreira Andrade;46635378634;Direito;7;13875043;95.1;7.51;0;0;0.0;0;0
+202300511;André Martins Lima;56313804473;Direito;8;13884496;66.0;3.59;4;2;2533.0;1;1
+202300518;Eduarda Nunes Barbosa;85297562902;Agronomia;8;13864310;90.6;8.11;0;0;0.0;0;0
+202300521;Yasmin Freitas Souza;98423537889;Direito;7;13893207;92.7;7.38;0;0;0.0;0;0
+202300525;Letícia Pereira Souza;82536252191;Administração;8;13884496;95.8;7.49;0;0;0.0;0;0
+202300531;Gustavo Silva Oliveira;90862366186;Agronomia;8;37716022;90.3;7.06;0;0;0.0;0;0
+202300532;Otávio Mendes Rodrigues;05425218303;Enfermagem;7;13848430;92.7;7.46;0;0;0.0;0;0
+202300539;Ana Gomes Dias;58930681735;Agronomia;7;37706236;61.5;2.92;4;2;2980.0;0;1
+202300542;Bruno Ferreira Rocha;46572340058;Medicina Veterinária;8;13875043;93.4;6.63;1;0;0.0;1;0
+202300550;Fernanda Souza Gomes;38017371950;Agronomia;7;13781046;90.3;7.2;0;0;0.0;0;0
+202300557;João Martins Ferreira;29794679950;Agronomia;8;37704390;92.7;8.3;0;0;0.0;1;0
+202300561;Mariana Dias Lopes;92977352406;Agronomia;7;13874885;67.7;2.13;4;1;1490.0;0;0
+202300563;Camila Ferreira Andrade;55631896605;Administração;7;13846435;84.0;5.8;2;2;1980.0;0;0
+202300566;Larissa Ferreira Marques;55220907743;Enfermagem;7;13875570;93.4;7.56;0;0;0.0;1;2
+202300571;Letícia Alves Soares;81259769739;Engenharia Civil;7;37841060;82.3;4.88;4;1;1590.0;1;0
+202300574;Leonardo Vieira Soares;43330018380;Enfermagem;8;13875570;83.7;5.28;2;1;952.0;0;0
+202300578;Diego Costa Martins;71109781172;Enfermagem;7;13877097;92.4;8.51;0;0;0.0;1;0
+202300582;Matheus Andrade Marques;97661069679;Enfermagem;8;37841240;92.4;8.11;0;0;0.0;0;0
+202300585;Ana Lopes Lima;58373105760;Psicologia;7;13877097;90.3;7.24;1;0;0.0;0;0
+202300587;Camila Marques Almeida;28820967553;Psicologia;8;13874885;79.9;5.08;3;1;1390.0;1;0
+202300591;Murilo Soares Ribeiro;08491758607;Enfermagem;8;13750104;61.5;3.45;4;1;952.0;2;0
+202300601;João Mendes Freitas;46134889660;Engenharia Civil;8;13992002;70.5;2.75;4;3;4452.0;0;0
+202300604;Letícia Lima Freitas;22021239381;Enfermagem;7;13781046;94.4;7.71;0;0;0.0;0;0
+202300607;Júlia Gomes Martins;85363145081;Engenharia Civil;7;13875043;93.8;8.25;0;0;0.0;0;0
+202300620;Letícia Nunes Andrade;83610687088;Administração;8;37841240;92.4;7.41;0;0;0.0;0;1
+202400001;Fernanda Soares Rocha;39986987954;Direito;6;13792044;91.7;8.29;0;0;0.0;0;0
+202400002;Felipe Fernandes Fernandes;29405576160;Direito;6;13874000;91.3;8.07;0;0;0.0;1;0
+202400009;Rafael Vieira Marques;24410646060;Direito;6;13876441;91.7;7.56;0;0;0.0;1;0
+202400010;Camila Gomes Marques;04541465906;Psicologia;5;13870220;64.6;2.36;4;1;1390.0;1;1
+202400015;Amanda Freitas Lopes;57951117404;Direito;6;13877097;91.0;7.9;0;0;0.0;0;0
+202400025;Rodrigo Nascimento Pereira;56073927320;Medicina Veterinária;6;37701000;81.6;5.22;3;1;2390.0;0;0
+202400026;Yasmin Machado Soares;95391827604;Ciência da Computação;6;13874885;86.5;6.03;2;1;1290.0;1;0
+202400037;Vinícius Moreira Dias;96505654771;Direito;6;37701326;96.9;7.21;0;0;0.0;0;0
+202400041;Amanda Oliveira Freitas;94808534770;Administração;6;13992034;94.4;7.46;0;0;0.0;1;1
+202400042;Vinícius Oliveira Mendes;80053051416;Direito;5;13877097;91.0;8.14;0;0;0.0;0;0
+202400053;Vitória Santos Oliveira;10063717107;Enfermagem;6;13876441;64.6;2.3;4;2;2261.0;3;0
+202400056;Paula Andrade Rocha;04713936065;Agronomia;5;37704390;91.3;7.29;0;0;0.0;0;0
+202400059;Lucas Lopes Soares;24431774670;Engenharia Civil;5;13870220;67.4;2.78;4;2;3180.0;1;0
+202400061;João Barbosa Ferreira;25657983777;Administração;6;13876781;95.1;8.19;0;0;0.0;1;0
+202400064;Daniel Barbosa Costa;42373369729;Ciência da Computação;5;13874885;90.3;7.54;0;0;0.0;0;1
+202400065;Lucas Fernandes Lima;18634056155;Administração;6;13870220;92.4;7.76;0;1;990.0;1;0
+202400067;Pedro Moreira Souza;56781724681;Psicologia;5;13884496;92.7;8.11;0;0;0.0;0;0
+202400072;Matheus Marques Souza;35918381449;Administração;5;13973865;95.1;8.56;0;0;0.0;0;1
+202400074;Gustavo Almeida Moreira;34888302251;Psicologia;6;13875043;93.8;7.74;0;0;0.0;2;0
+202400078;Amanda Martins Almeida;26058188539;Enfermagem;6;13739079;95.5;7.54;0;0;0.0;0;1
+202400080;Gabriela Costa Gomes;33743663090;Agronomia;5;13882606;73.3;3.23;4;4;5513.0;0;0
+202400081;Matheus Ferreira Souza;70784431795;Direito;6;37701000;92.7;7.36;0;0;0.0;0;0
+202400089;Júlia Ribeiro Almeida;65249138179;Direito;5;37716022;92.4;8.71;0;1;1490.0;0;0
+202400092;Sofia Ribeiro Ribeiro;19570834099;Enfermagem;5;13882614;91.0;7.31;1;0;0.0;0;0
+202400093;Daniel Oliveira Soares;50191965251;Ciência da Computação;5;13877097;96.2;7.1;1;0;0.0;0;0
+202400097;Carla Lopes Almeida;44051438112;Agronomia;6;37701000;90.6;7.66;0;1;1490.0;0;0
+202400099;Mariana Soares Martins;37685834227;Enfermagem;6;13875043;76.7;6.24;3;0;0.0;0;0
+202400112;Caio Barbosa Santos;36218415554;Administração;6;13884496;93.8;7.25;0;0;0.0;0;0
+202400118;Diego Oliveira Andrade;83263368745;Administração;6;37840124;62.8;3.96;4;2;1980.0;0;0
+202400121;Mariana Andrade Rocha;54926408872;Psicologia;6;13734542;73.3;3.88;4;1;1251.0;1;1
+202400122;Felipe Silva Soares;25948935442;Psicologia;6;13882606;93.1;7.88;0;0;0.0;0;0
+202400123;Daniel Oliveira Costa;81906377111;Administração;5;13750104;91.3;8.49;0;0;0.0;1;0
+202400124;Vitória Marques Barbosa;02932583840;Agronomia;5;13870220;80.6;5.99;3;0;0.0;1;0
+202400127;Matheus Fernandes Oliveira;34170313623;Engenharia Civil;6;13874885;81.3;6.43;2;0;0.0;0;0
+202400128;Leonardo Marques Lopes;02852413205;Agronomia;6;13884496;79.5;5.58;3;1;1490.0;0;0
+202400129;Sofia Santos Ribeiro;74002409430;Psicologia;6;13877097;91.3;7.25;0;0;0.0;1;0
+202400130;Lívia Nunes Andrade;44942552621;Enfermagem;6;13874885;91.3;8.39;0;0;0.0;0;0
+202400132;Amanda Ferreira Lopes;93226951882;Agronomia;5;37701326;80.6;6.0;3;1;1341.0;1;1
+202400133;André Freitas Santos;29777976534;Psicologia;6;13875043;92.0;7.64;0;0;0.0;0;2
+202400137;Caio Santos Rocha;80576418005;Psicologia;5;13874000;67.0;3.98;4;2;2502.0;1;0
+202400142;Júlia Costa Moreira;95229077743;Administração;5;13874000;88.5;5.1;4;3;2871.0;0;0
+202400144;Diego Silva Rocha;38998767686;Administração;5;13992034;94.8;7.47;0;0;0.0;0;0
+202400147;Eduarda Machado Martins;08958781190;Medicina Veterinária;6;13864310;95.1;7.96;0;0;0.0;0;1
+202400148;Henrique Gomes Nascimento;54930330386;Psicologia;5;13992002;96.2;7.81;0;0;0.0;1;1
+202400155;Paula Almeida Nascimento;35588351070;Psicologia;6;37716022;96.2;7.45;0;0;0.0;0;0
+202400156;Matheus Soares Lima;45776097380;Agronomia;5;13880232;95.8;7.39;1;0;0.0;1;0
+202400158;Letícia Pereira Martins;70034710787;Ciência da Computação;6;13781046;96.9;7.28;0;0;0.0;0;0
+202400159;Rafael Silva Martins;18617004908;Agronomia;6;13896032;97.6;7.65;0;0;0.0;0;0
+202400176;Beatriz Machado Ribeiro;45990385200;Engenharia Civil;6;13870220;69.8;3.86;4;0;0.0;2;0
+202400179;Isabela Moreira Fernandes;18906437340;Medicina Veterinária;6;13884496;95.5;7.39;0;0;0.0;1;0
+202400183;Natália Alves Rocha;41181132797;Ciência da Computação;6;13874000;89.9;7.85;0;0;0.0;2;1
+202400187;Carla Marques Oliveira;07372799589;Agronomia;5;13882614;91.7;8.03;0;0;0.0;0;0
+202400188;Vitória Lopes Rocha;35793427465;Psicologia;5;13874000;79.9;5.54;4;1;1112.0;0;0
+202400189;Sofia Mendes Pereira;21279513608;Administração;5;13739079;82.3;5.1;4;1;990.0;0;0
+202400190;Thiago Fernandes Mendes;33564326723;Ciência da Computação;6;13874885;91.0;6.59;1;1;1290.0;0;0
+202400192;Matheus Mendes Martins;73653546150;Administração;6;13893207;92.0;8.0;0;0;0.0;0;0
+202400193;Gabriela Costa Soares;96235969015;Direito;5;13876781;94.1;7.74;0;0;0.0;0;1
+202400196;Gustavo Lopes Nascimento;57896273233;Enfermagem;5;13874885;94.1;7.54;0;0;0.0;1;1
+202400203;Natália Vieira Rocha;27352061223;Administração;5;13896032;63.2;3.94;4;2;1881.0;0;0
+202400211;Carla Costa Costa;24978268621;Enfermagem;6;13875570;70.5;1.84;4;3;3332.0;1;0
+202400216;Caio Gomes Dias;94567180348;Agronomia;5;13875043;94.1;8.32;0;0;0.0;0;0
+202400228;Fernanda Rocha Gomes;69946747545;Ciência da Computação;6;13875570;91.3;8.32;0;0;0.0;2;1
+202400231;Natália Silva Vieira;83987997737;Ciência da Computação;5;37706236;95.1;8.05;0;0;0.0;1;0
+202400240;Pedro Oliveira Andrade;37943450965;Psicologia;6;13875570;94.1;7.54;0;0;0.0;0;1
+202400241;Otávio Moreira Nunes;38773845795;Engenharia Civil;6;13988034;91.3;6.96;0;0;0.0;0;0
+202400243;Bruno Marques Moreira;02144235651;Psicologia;6;13874000;90.6;7.38;0;0;0.0;0;0
+202400247;Diego Moreira Vieira;10903481855;Direito;5;13884496;92.0;7.06;0;0;0.0;1;0
+202400248;Henrique Dias Pereira;79310472812;Medicina Veterinária;5;13874000;90.6;7.38;0;0;0.0;2;0
+202400249;Lívia Dias Gomes;91283729059;Psicologia;5;13870220;66.3;4.11;4;3;4031.0;1;0
+202400250;André Mendes Alves;27645043229;Ciência da Computação;5;13876441;85.8;5.79;2;1;1032.0;0;0
+202400252;Rodrigo Dias Almeida;20761994629;Direito;6;13874000;92.0;7.59;0;1;1490.0;0;0
+202400272;Leonardo Silva Oliveira;30260661252;Direito;5;13739079;97.6;7.94;0;0;0.0;0;0
+202400279;Natália Fernandes Nascimento;20475320514;Direito;6;13870220;93.4;7.3;0;0;0.0;2;0
+202400288;Lucas Marques Costa;12837187151;Medicina Veterinária;5;13880232;92.4;6.94;0;0;0.0;2;0
+202400290;Gabriela Fernandes Nunes;85934683306;Agronomia;6;13875570;94.1;7.97;0;0;0.0;0;0
+202400307;Ana Pereira Pereira;62660036357;Enfermagem;6;13882606;92.0;7.04;0;0;0.0;0;0
+202400310;Rafael Pereira Nunes;85001805600;Medicina Veterinária;6;37716022;88.9;8.13;0;0;0.0;1;0
+202400316;Eduarda Ferreira Almeida;49855961323;Ciência da Computação;5;13882606;89.2;7.8;0;0;0.0;1;1
+202400319;Sofia Costa Dias;10803343868;Direito;5;37840124;95.5;7.89;0;0;0.0;2;0
+202400322;Camila Soares Soares;16041791040;Agronomia;5;13841083;91.7;7.28;0;0;0.0;0;0
+202400328;Beatriz Ferreira Ribeiro;39981354724;Direito;6;37701326;89.6;6.75;1;0;0.0;0;0
+202400330;Felipe Ferreira Carvalho;44301361308;Engenharia Civil;6;13896032;90.6;8.13;0;0;0.0;1;1
+202400332;Fernanda Vieira Barbosa;05036281233;Medicina Veterinária;5;13877097;94.1;7.15;0;0;0.0;1;0
+202400333;Gustavo Pereira Rodrigues;85772051180;Agronomia;6;13877097;91.3;7.38;0;0;0.0;0;0
+202400336;Thiago Lopes Lopes;38423308472;Engenharia Civil;6;13708030;81.3;6.41;1;0;0.0;0;0
+202400353;Júlia Rodrigues Vieira;59118168221;Agronomia;6;13864310;93.4;7.82;0;0;0.0;1;1
+202400357;Helena Gomes Machado;05331556140;Medicina Veterinária;6;13731040;92.7;7.25;0;0;0.0;1;0
+202400364;Murilo Lopes Fernandes;58971231521;Enfermagem;5;13782044;81.6;6.0;2;1;1190.0;0;0
+202400372;Sofia Rocha Costa;70371365813;Administração;5;13875043;94.1;7.8;0;0;0.0;0;0
+202400375;Natália Souza Mendes;02210891280;Ciência da Computação;6;13876441;96.2;8.07;0;0;0.0;1;0
+202400377;Vitória Gomes Freitas;05677394572;Engenharia Civil;5;13874000;90.6;8.35;0;0;0.0;2;0
+202400379;Paula Lopes Rocha;88497303490;Engenharia Civil;5;13864310;94.8;7.1;0;0;0.0;1;0
+202400383;Carla Santos Alves;67805310149;Psicologia;5;13860690;82.6;5.74;2;1;1390.0;0;0
+202400387;Júlia Marques Andrade;02144678561;Ciência da Computação;5;13734542;90.6;7.59;0;1;1290.0;0;0
+202400390;Lívia Carvalho Vieira;76253179608;Enfermagem;6;13876781;79.9;5.29;4;2;2380.0;1;1
+202400391;Helena Fernandes Andrade;76489530724;Ciência da Computação;6;13882606;96.9;8.28;0;0;0.0;0;0
+202400398;Amanda Carvalho Ribeiro;55329120926;Direito;5;13876441;93.4;7.99;0;0;0.0;0;0
+202400401;Otávio Rodrigues Rocha;30384626750;Engenharia Civil;5;13875570;79.9;5.64;3;1;1431.0;0;0
+202400407;Murilo Alves Barbosa;53968752244;Administração;6;13876781;93.4;7.08;0;0;0.0;1;0
+202400419;Paula Carvalho Lopes;71071579576;Psicologia;5;37706236;77.8;5.75;2;0;0.0;0;0
+202400423;Vitória Fernandes Rodrigues;40425648524;Direito;5;13870220;93.4;7.47;0;0;0.0;1;0
+202400426;André Martins Rocha;62566539120;Psicologia;6;13880232;93.8;8.25;0;0;0.0;0;0
+202400430;Gustavo Pereira Marques;39139596966;Agronomia;5;13708030;91.7;7.99;0;0;0.0;0;0
+202400432;Sofia Rodrigues Vieira;28235862026;Administração;5;13782044;91.0;7.91;0;0;0.0;1;0
+202400443;Helena Dias Moreira;84690311390;Enfermagem;5;13703606;91.7;7.66;0;1;1190.0;0;0
+202400444;Bruno Dias Alves;03476034089;Direito;6;13990017;67.0;3.8;4;1;1490.0;2;0
+202400449;Lucas Mendes Fernandes;31881312593;Agronomia;6;13875043;95.1;7.88;0;0;0.0;1;0
+202400452;Gustavo Santos Moreira;08597439939;Direito;5;13874000;93.8;7.86;0;0;0.0;1;0
+202400455;João Andrade Nunes;40020820593;Agronomia;6;37841060;94.4;7.76;0;0;0.0;0;0
+202400459;Lívia Gomes Freitas;34606278080;Medicina Veterinária;6;13846435;92.7;7.7;0;0;0.0;0;0
+202400465;Henrique Lima Machado;39913856434;Administração;5;13990107;76.7;6.08;2;0;0.0;0;0
+202400468;Camila Martins Lima;11075998905;Direito;5;13876781;89.9;8.36;0;0;0.0;1;0
+202400469;Mariana Ferreira Vieira;07002236229;Engenharia Civil;6;37704390;63.5;1.55;4;4;6042.0;0;0
+202400470;Caio Martins Oliveira;93636751735;Enfermagem;5;13876441;95.1;7.41;0;0;0.0;0;1
+202400475;Daniel Silva Souza;71734238720;Psicologia;6;13882614;94.4;8.36;0;0;0.0;0;0
+202400481;Felipe Souza Martins;70723429405;Direito;6;13875043;91.3;7.8;0;0;0.0;0;0
+202400483;Larissa Alves Soares;78456768294;Enfermagem;6;13880232;96.9;7.58;0;1;1190.0;0;0
+202400486;Henrique Silva Ferreira;41465498338;Administração;6;13870220;91.7;6.58;0;0;0.0;0;0
+202400487;João Carvalho Andrade;67110585859;Administração;5;13782040;91.0;7.86;0;0;0.0;0;0
+202400488;Gustavo Souza Silva;65136212080;Psicologia;5;37841240;89.9;6.86;0;0;0.0;1;0
+202400490;Thiago Nascimento Almeida;25435890829;Direito;5;13874885;91.7;8.22;0;0;0.0;0;0
+202400492;Camila Gomes Costa;48563866893;Psicologia;5;13988034;93.1;8.19;0;0;0.0;1;0
+202400493;Carla Rocha Nunes;21046493400;Agronomia;5;13882614;66.0;2.56;4;2;2980.0;0;0
+202400495;Paula Vieira Nascimento;53104472882;Engenharia Civil;6;13875570;93.8;8.49;0;0;0.0;1;0
+202400498;Felipe Freitas Dias;42380664056;Ciência da Computação;6;13875043;77.8;6.64;2;0;0.0;1;0
+202400503;Mariana Nascimento Machado;45717272910;Enfermagem;6;13875570;89.6;8.65;0;0;0.0;0;0
+202400505;Larissa Almeida Rodrigues;96189926673;Direito;5;13874885;91.3;8.34;0;0;0.0;1;0
+202400510;André Soares Oliveira;14512313850;Psicologia;5;13882614;61.8;3.14;4;3;3892.0;1;1
+202400515;Leonardo Barbosa Freitas;78077304125;Agronomia;5;13880232;95.1;7.99;0;0;0.0;0;1
+202400516;Henrique Santos Moreira;62050832648;Psicologia;5;13882606;91.7;7.17;1;0;0.0;0;0
+202400520;Helena Vieira Martins;17961694471;Direito;5;13992034;91.3;8.03;0;0;0.0;0;2
+202400527;Helena Almeida Dias;11685048056;Agronomia;6;37716022;92.7;7.38;1;1;1192.0;2;0
+202400528;Eduarda Mendes Lima;48508250363;Agronomia;5;13874000;80.2;4.96;4;1;1341.0;0;0
+202400530;André Machado Martins;20282032851;Agronomia;5;13875043;90.6;7.64;0;0;0.0;0;0
+202400534;Fernanda Silva Dias;84925100300;Enfermagem;5;13884496;86.1;5.1;4;1;1190.0;0;0
+202400535;Thiago Oliveira Fernandes;09012103312;Engenharia Civil;5;37841240;95.5;7.84;0;0;0.0;1;0
+202400540;Rafael Pereira Carvalho;97494901345;Ciência da Computação;6;37701326;93.8;7.96;0;1;1161.0;1;0
+202400545;Carla Nascimento Mendes;03660875414;Direito;5;13880232;91.7;7.55;0;0;0.0;0;0
+202400548;Bruno Freitas Almeida;26369050300;Administração;5;13875043;92.4;7.64;0;0;0.0;0;0
+202400553;Lucas Alves Moreira;12388345669;Psicologia;6;13882614;96.9;7.53;0;1;1251.0;0;0
+202400554;Henrique Marques Ferreira;16967039300;Enfermagem;5;13870220;91.3;7.28;0;1;952.0;1;0
+202400559;Leonardo Pereira Santos;87906317653;Agronomia;5;13846435;82.6;5.78;3;1;1490.0;1;0
+202400564;Eduarda Costa Andrade;44839761094;Enfermagem;6;13708030;92.7;8.56;0;0;0.0;0;0
+202400568;Thiago Souza Costa;47154330449;Enfermagem;5;13988034;90.3;7.74;0;0;0.0;0;0
+202400570;Amanda Almeida Dias;27805543801;Ciência da Computação;6;13884496;93.8;7.56;0;0;0.0;1;0
+202400576;Paula Martins Alves;66184725203;Psicologia;6;13792082;69.4;2.48;4;2;2780.0;4;0
+202400577;Larissa Andrade Barbosa;72184820741;Administração;5;13875570;93.1;7.81;0;0;0.0;0;0
+202400579;Pedro Costa Mendes;55719423630;Engenharia Civil;6;13864310;96.2;7.12;0;0;0.0;0;0
+202400584;Lívia Silva Marques;31059738007;Psicologia;6;13860690;92.0;7.21;1;0;0.0;0;0
+202400588;Júlia Gomes Dias;06520207551;Direito;6;13899006;98.6;7.31;0;0;0.0;0;0
+202400597;Thiago Fernandes Nascimento;12077336447;Psicologia;6;13781046;80.6;5.13;4;1;1390.0;1;0
+202400602;Ana Ferreira Moreira;48412719379;Direito;6;13874000;95.5;7.72;0;0;0.0;0;0
+202400603;Caio Pereira Silva;68160436696;Ciência da Computação;5;37840124;92.7;8.15;0;0;0.0;0;2
+202400605;Larissa Lopes Ferreira;73491955831;Ciência da Computação;6;13870220;95.1;7.44;0;0;0.0;1;0
+202400608;Yasmin Freitas Gomes;34331014509;Ciência da Computação;6;37716022;81.6;5.54;4;0;0.0;0;1
+202400610;Diego Souza Pereira;58507182577;Psicologia;6;13992002;92.4;7.71;0;0;0.0;1;1
+202400614;Júlia Dias Nascimento;06849775839;Agronomia;6;13792044;93.1;7.36;0;0;0.0;0;0
+202400617;Rodrigo Santos Mendes;81745571990;Medicina Veterinária;6;13874000;93.4;7.63;0;0;0.0;0;0
+202500005;Ana Costa Dias;28379298403;Psicologia;3;13990017;95.1;7.97;0;1;1390.0;2;0
+202500007;Murilo Mendes Rodrigues;64686164257;Administração;4;13875043;92.7;7.39;1;1;891.0;0;0
+202500011;Júlia Dias Pereira;80886423023;Enfermagem;4;13703034;90.3;8.29;0;0;0.0;0;0
+202500012;Amanda Santos Pereira;65384535547;Ciência da Computação;4;13866526;88.5;7.96;0;2;2322.0;1;0
+202500013;Gabriela Mendes Silva;90668828161;Engenharia Civil;3;13882614;94.1;7.3;0;1;1431.0;3;0
+202500016;João Almeida Andrade;64515474251;Enfermagem;4;13882606;87.8;7.49;0;0;0.0;0;0
+202500019;Bruno Lopes Nunes;35486439067;Agronomia;3;13874000;82.6;5.72;3;0;0.0;0;0
+202500023;Rafael Gomes Andrade;78745721220;Ciência da Computação;3;13875570;92.0;8.32;0;0;0.0;1;0
+202500030;Yasmin Soares Freitas;12098426453;Agronomia;3;13864310;94.8;8.39;0;1;1490.0;1;0
+202500032;Fernanda Gomes Santos;42692767039;Medicina Veterinária;3;13734542;89.6;8.73;0;0;0.0;1;0
+202500033;Ana Carvalho Soares;53896501313;Enfermagem;4;37701000;92.4;7.2;0;0;0.0;1;0
+202500038;Diego Nascimento Ribeiro;87198890466;Medicina Veterinária;3;37841060;90.3;8.1;0;0;0.0;0;0
+202500039;Diego Carvalho Gomes;96017967703;Agronomia;4;13875043;92.0;7.15;1;0;0.0;0;0
+202500044;Yasmin Gomes Ferreira;46686316636;Administração;4;13870220;80.6;6.11;2;1;792.0;0;0
+202500045;Thiago Barbosa Carvalho;04410475134;Medicina Veterinária;4;37704390;86.1;6.01;2;0;0.0;1;0
+202500048;Ana Silva Gomes;71671552920;Ciência da Computação;4;13877097;91.3;7.95;0;0;0.0;0;1
+202500049;Yasmin Machado Soares;37027186136;Administração;4;13877097;91.0;8.26;0;0;0.0;0;0
+202500051;João Silva Andrade;28370950604;Engenharia Civil;3;13870220;93.4;6.63;1;0;0.0;0;0
+202500055;Henrique Mendes Andrade;38637877656;Psicologia;3;13875043;93.8;7.63;0;1;1390.0;1;0
+202500066;Bruno Lopes Lima;63886918033;Engenharia Civil;4;37704390;92.7;8.05;0;0;0.0;0;0
+202500071;Pedro Martins Lopes;47147323157;Agronomia;4;13708030;92.7;7.89;0;0;0.0;0;0
+202500075;Letícia Ribeiro Costa;48344744539;Administração;3;13876441;95.1;7.54;1;0;0.0;1;0
+202500098;Camila Machado Pereira;46268572130;Ciência da Computação;4;13876441;93.4;7.58;0;0;0.0;1;0
+202500103;Pedro Andrade Andrade;00641735936;Enfermagem;4;37701000;95.8;7.79;0;0;0.0;0;0
+202500104;Rafael Vieira Silva;14293092455;Psicologia;3;13876441;88.2;7.88;0;1;1390.0;1;1
+202500109;Amanda Ferreira Freitas;29896867038;Direito;3;13893207;94.8;7.21;1;0;0.0;0;0
+202500110;Lívia Souza Souza;70905747178;Administração;4;13874885;94.4;7.01;1;0;0.0;0;0
+202500113;Vitória Pereira Souza;01412943299;Engenharia Civil;3;13734542;92.7;7.95;0;0;0.0;1;1
+202500125;Otávio Fernandes Alves;02292002906;Agronomia;4;37716022;94.8;7.79;0;1;1490.0;0;0
+202500138;Sofia Alves Andrade;74537086726;Enfermagem;3;37704390;93.1;7.83;0;0;0.0;1;1
+202500145;Daniel Costa Marques;53741837105;Psicologia;3;13750104;65.6;3.76;4;0;0.0;1;1
+202500151;Fernanda Carvalho Oliveira;17214965488;Engenharia Civil;4;13870220;91.7;7.84;0;0;0.0;1;0
+202500153;Leonardo Rodrigues Gomes;21475531311;Enfermagem;3;13877097;92.7;7.54;0;0;0.0;1;0
+202500157;Paula Andrade Costa;43293489931;Direito;4;13874000;61.5;3.85;4;2;2682.0;2;0
+202500161;Daniel Martins Oliveira;75958607090;Agronomia;3;13880232;92.7;7.19;0;0;0.0;1;0
+202500163;Pedro Rodrigues Nunes;73866346255;Ciência da Computação;4;13880232;96.2;7.15;0;0;0.0;0;0
+202500166;Matheus Carvalho Marques;39253959703;Agronomia;4;13893207;92.7;7.3;0;0;0.0;0;0
+202500167;Murilo Andrade Mendes;75149582158;Enfermagem;3;13877097;91.7;7.79;0;0;0.0;0;1
+202500168;Gustavo Santos Pereira;08736135976;Administração;3;13796168;80.9;5.19;4;1;990.0;0;0
+202500169;Gabriela Mendes Silva;49575566521;Ciência da Computação;4;13882606;92.4;6.97;0;0;0.0;0;0
+202500171;Helena Carvalho Freitas;46353602103;Enfermagem;4;13875570;89.2;9.07;0;1;1071.0;0;0
+202500172;Diego Costa Machado;10457556056;Medicina Veterinária;3;13874885;91.3;7.69;0;0;0.0;0;0
+202500173;Vitória Souza Oliveira;35167799694;Direito;3;37716022;87.5;6.19;2;0;0.0;0;0
+202500177;Lucas Machado Marques;53620830401;Psicologia;3;13876781;78.1;5.9;2;0;0.0;1;0
+202500178;Natália Nunes Dias;22087470111;Enfermagem;4;13864310;96.2;7.88;0;0;0.0;0;0
+202500180;Paula Souza Rocha;59955874988;Psicologia;3;13782040;93.4;7.96;0;0;0.0;1;1
+202500185;Vinícius Pereira Soares;22519332204;Administração;3;37704390;85.4;6.34;2;0;0.0;0;0
+202500191;Rafael Pereira Nunes;87848299155;Ciência da Computação;4;13846435;95.5;6.76;0;0;0.0;0;0
+202500199;Larissa Dias Andrade;21184589755;Ciência da Computação;4;13739079;89.9;7.74;0;0;0.0;0;0
+202500200;Camila Alves Lima;20642803161;Psicologia;4;37701000;86.5;5.2;3;2;2641.0;0;0
+202500207;Vinícius Lopes Rodrigues;39057884119;Agronomia;4;13870220;77.1;5.9;3;1;1341.0;3;0
+202500210;Vitória Almeida Oliveira;95698713421;Medicina Veterinária;4;13990017;94.4;7.47;0;0;0.0;1;1
+202500213;Henrique Gomes Nascimento;45572097691;Administração;4;13875043;73.6;2.95;4;2;1683.0;1;0
+202500230;Yasmin Soares Nascimento;15160505253;Ciência da Computação;3;13899006;93.4;7.89;0;0;0.0;1;0
+202500238;Henrique Machado Andrade;73967139514;Administração;4;13708030;93.4;7.69;0;0;0.0;0;0
+202500239;Vinícius Pereira Pereira;65618613964;Administração;4;13875570;93.4;7.16;0;0;0.0;1;0
+202500242;Yasmin Oliveira Barbosa;39821743501;Agronomia;4;13876441;93.8;7.99;0;0;0.0;0;0
+202500251;Henrique Souza Fernandes;55289251421;Administração;3;13874000;90.3;8.01;0;0;0.0;1;0
+202500253;Sofia Pereira Santos;77530029452;Psicologia;4;13876781;94.8;7.75;0;0;0.0;0;0
+202500257;Sofia Alves Nunes;44567268814;Direito;4;13708030;95.1;7.59;0;0;0.0;0;0
+202500269;Mariana Carvalho Oliveira;23187053645;Ciência da Computação;3;13876441;70.5;3.63;4;1;1290.0;1;0
+202500270;Otávio Vieira Nunes;17706609502;Ciência da Computação;3;13864310;92.0;8.51;0;0;0.0;0;0
+202500271;Vinícius Rocha Rodrigues;42657638635;Agronomia;4;13874885;95.5;7.49;1;0;0.0;1;1
+202500273;Gabriela Moreira Vieira;70457396130;Engenharia Civil;3;13781046;96.5;7.66;0;0;0.0;1;0
+202500275;Bruno Ribeiro Oliveira;98534331685;Ciência da Computação;3;13781046;95.5;8.11;0;0;0.0;0;1
+202500276;Matheus Carvalho Freitas;12119564310;Engenharia Civil;3;13877097;93.4;8.81;0;0;0.0;1;0
+202500284;Leonardo Soares Fernandes;84851507089;Direito;3;13875570;66.7;3.55;4;2;2682.0;1;0
+202500286;Diego Ferreira Almeida;58259209438;Engenharia Civil;3;13870220;79.2;5.84;3;0;0.0;0;0
+202500289;Paula Ribeiro Nascimento;46491143228;Ciência da Computação;4;13874000;92.0;7.9;0;0;0.0;0;0
+202500291;Caio Marques Lopes;85458085507;Enfermagem;4;13874000;80.2;5.54;4;1;1190.0;0;0
+202500292;Leonardo Nunes Martins;77481039763;Ciência da Computação;4;13874000;94.4;6.74;0;0;0.0;0;0
+202500293;Rodrigo Pereira Santos;72058600673;Direito;4;13870220;91.3;7.19;0;0;0.0;0;1
+202500296;Helena Lopes Alves;97965786621;Agronomia;3;13992002;72.2;2.74;4;2;2682.0;1;0
+202500299;João Ferreira Lopes;56530718389;Medicina Veterinária;4;13877097;91.0;7.7;0;0;0.0;0;0
+202500303;Leonardo Vieira Gomes;46886396781;Agronomia;4;13882614;89.9;7.34;0;1;1490.0;2;0
+202500306;Beatriz Barbosa Lima;52674581719;Psicologia;4;13841083;92.7;8.38;0;0;0.0;1;0
+202500309;Yasmin Andrade Nascimento;93781137376;Administração;3;13874885;93.8;7.09;1;0;0.0;0;0
+202500311;Leonardo Martins Martins;60144507773;Engenharia Civil;3;13876441;57.3;2.74;4;1;1272.0;0;0
+202500318;Bruno Dias Dias;37673968401;Agronomia;3;13874000;89.9;7.46;0;0;0.0;0;0
+202500324;Diego Machado Fernandes;18634485439;Engenharia Civil;3;37841060;64.2;2.96;4;2;3021.0;1;0
+202500329;Caio Andrade Gomes;53565255676;Enfermagem;4;13876441;58.7;2.51;4;0;0.0;1;0
+202500334;Otávio Mendes Rocha;45746975800;Engenharia Civil;4;13876441;90.6;7.67;0;0;0.0;1;0
+202500337;Júlia Oliveira Gomes;03296399275;Medicina Veterinária;3;13860710;89.9;7.16;0;0;0.0;0;0
+202500338;Thiago Rocha Barbosa;18148779325;Direito;3;13875043;83.3;5.3;3;2;2831.0;0;0
+202500339;Eduarda Silva Gomes;73453279492;Ciência da Computação;4;13875043;91.7;8.3;0;0;0.0;0;0
+202500341;Henrique Souza Vieira;27057405979;Administração;4;37706236;93.1;7.28;0;0;0.0;0;0
+202500342;Thiago Santos Santos;78606382400;Enfermagem;3;13864310;91.3;7.39;0;0;0.0;0;0
+202500343;Yasmin Lopes Vieira;84291660332;Engenharia Civil;3;13848430;87.2;7.8;0;0;0.0;1;1
+202500355;Eduarda Ribeiro Marques;44390236652;Psicologia;4;13870220;95.5;8.05;0;0;0.0;0;0
+202500358;Mariana Alves Carvalho;70786737867;Engenharia Civil;3;13860690;92.0;8.11;0;0;0.0;0;0
+202500365;Eduarda Barbosa Marques;58837709080;Medicina Veterinária;3;13899006;96.2;7.6;0;0;0.0;2;0
+202500367;Vinícius Pereira Vieira;89659525818;Enfermagem;4;13880232;94.8;8.19;0;0;0.0;1;1
+202500369;Rafael Rodrigues Oliveira;40300476884;Administração;3;13860690;91.0;7.25;0;0;0.0;1;1
+202500376;Ana Alves Mendes;07394145930;Enfermagem;3;13992034;96.5;7.63;0;0;0.0;1;0
+202500384;Lucas Alves Gomes;22373204207;Agronomia;3;13846435;89.6;7.99;0;0;0.0;1;0
+202500385;Otávio Lima Martins;46495726813;Ciência da Computação;3;13864310;90.3;8.26;0;1;1290.0;1;2
+202500389;Sofia Mendes Freitas;27595270502;Agronomia;4;37701000;97.9;7.86;0;0;0.0;0;0
+202500394;Fernanda Almeida Dias;91609423550;Ciência da Computação;4;13866526;93.4;8.1;0;0;0.0;0;0
+202500403;Isabela Barbosa Freitas;74687221610;Administração;4;37841060;94.8;7.72;0;0;0.0;0;0
+202500414;Gabriela Andrade Andrade;48772253150;Engenharia Civil;3;37701000;91.3;6.72;0;0;0.0;1;0
+202500416;Yasmin Lima Pereira;31384905227;Administração;4;13874885;92.7;7.66;0;0;0.0;0;0
+202500422;Henrique Vieira Costa;89957035045;Ciência da Computação;4;13792044;92.7;7.53;0;0;0.0;0;0
+202500424;Lívia Lopes Vieira;98661663415;Administração;3;13703034;92.0;7.9;0;1;990.0;1;0
+202500433;Helena Soares Dias;13322206149;Engenharia Civil;4;13874000;93.1;6.92;1;0;0.0;0;0
+202500434;Matheus Ribeiro Ribeiro;32015566708;Ciência da Computação;3;13874000;89.9;6.91;0;0;0.0;1;0
+202500436;Rodrigo Oliveira Alves;16405785289;Direito;4;13899006;91.7;6.99;0;0;0.0;0;0
+202500439;Mariana Mendes Gomes;07039073447;Direito;3;13782044;90.3;8.38;0;0;0.0;0;0
+202500441;João Costa Moreira;43241923401;Engenharia Civil;4;13882606;94.1;7.44;0;0;0.0;1;0
+202500442;Camila Lima Ferreira;84801134483;Medicina Veterinária;3;13877097;92.4;7.54;0;0;0.0;0;0
+202500446;Sofia Mendes Rocha;90930328523;Engenharia Civil;4;13877097;78.5;6.04;2;0;0.0;0;0
+202500447;Isabela Rodrigues Dias;07032714587;Administração;4;13876441;97.6;8.6;0;0;0.0;1;0
+202500451;Yasmin Ribeiro Alves;53539781021;Ciência da Computação;4;13739079;93.4;8.11;0;1;1290.0;0;0
+202500457;Larissa Costa Pereira;83122250560;Direito;4;13750104;82.6;5.36;3;1;1490.0;0;0
+202500462;Isabela Nascimento Vieira;01053845189;Administração;3;13992034;89.9;5.81;1;0;0.0;0;0
+202500466;Ana Pereira Souza;07611118919;Psicologia;4;13875043;78.5;5.88;2;1;1390.0;0;0
+202500467;Sofia Andrade Lima;03347440242;Direito;3;13875570;85.1;5.65;3;1;1490.0;0;0
+202500471;Bruno Andrade Lima;51260000982;Psicologia;3;37704390;84.0;5.68;3;1;1390.0;0;0
+202500479;Isabela Rodrigues Almeida;81180819829;Administração;4;13876441;81.9;6.35;2;0;0.0;0;0
+202500497;Letícia Rodrigues Vieira;78349539585;Administração;3;13877097;95.5;7.94;0;0;0.0;0;0
+202500499;Gustavo Ferreira Rodrigues;64855260134;Engenharia Civil;3;13860690;92.7;7.69;0;0;0.0;0;0
+202500501;Leonardo Ribeiro Soares;10461305100;Agronomia;3;13990017;95.1;7.5;0;0;0.0;0;0
+202500508;Murilo Lopes Costa;00060038268;Psicologia;3;13876781;91.0;7.63;0;0;0.0;0;0
+202500514;Henrique Vieira Ribeiro;29916957576;Medicina Veterinária;3;13884496;84.0;5.92;2;2;4780.0;1;0
+202500517;Eduarda Soares Almeida;61786523213;Medicina Veterinária;3;13848430;95.1;7.53;0;0;0.0;1;0
+202500519;Camila Marques Fernandes;91272824497;Enfermagem;4;13875043;89.6;8.4;0;0;0.0;0;0
+202500524;Henrique Souza Marques;34362328319;Psicologia;3;13846435;92.7;7.96;0;0;0.0;2;0
+202500529;Enzo Rocha Costa;81117833968;Psicologia;4;37701326;94.4;7.74;0;1;1390.0;0;0
+202500536;Helena Lima Santos;02011588928;Enfermagem;3;13874885;95.8;6.97;0;0;0.0;0;0
+202500538;Ana Fernandes Oliveira;93846301957;Ciência da Computação;3;13882614;95.8;8.06;0;0;0.0;1;0
+202500541;Isabela Vieira Ferreira;32088781170;Medicina Veterinária;4;13860690;95.1;8.72;0;0;0.0;1;0
+202500544;Sofia Nunes Gomes;40960464344;Engenharia Civil;3;13990017;93.4;7.88;1;0;0.0;0;0
+202500546;Gustavo Martins Vieira;79368161356;Agronomia;4;13990107;91.3;7.26;0;0;0.0;0;0
+202500547;Isabela Pereira Santos;86883188240;Ciência da Computação;3;13884496;91.3;7.86;0;0;0.0;0;0
+202500549;Lucas Barbosa Santos;67741819372;Agronomia;4;37840124;93.8;7.68;0;0;0.0;1;1
+202500552;Felipe Carvalho Nascimento;55359209240;Psicologia;4;13874885;69.1;2.5;4;2;2502.0;2;1
+202500556;Larissa Dias Mendes;91618310003;Enfermagem;3;13880232;66.0;3.26;4;2;2380.0;1;0
+202500558;Carla Andrade Ferreira;33693800995;Administração;3;37716022;95.5;7.74;0;0;0.0;0;0
+202500560;Beatriz Silva Lopes;93001319585;Medicina Veterinária;4;13875570;90.6;7.75;0;0;0.0;0;0
+202500562;Vitória Vieira Ferreira;51006141618;Ciência da Computação;3;13876441;91.3;8.34;0;0;0.0;2;0
+202500565;Natália Oliveira Soares;04409506510;Medicina Veterinária;3;13882614;89.6;7.75;0;0;0.0;1;0
+202500572;Eduarda Costa Vieira;16762783899;Direito;4;13877097;85.8;6.44;1;0;0.0;1;0
+202500573;Enzo Silva Freitas;20724791183;Agronomia;3;13792044;93.1;7.24;1;1;1490.0;1;0
+202500580;Diego Freitas Santos;27016351017;Psicologia;4;13841083;91.7;7.78;0;0;0.0;1;0
+202500581;Lucas Vieira Silva;66790891404;Agronomia;3;13882606;80.9;5.81;2;1;1490.0;0;1
+202500583;Vitória Lima Lima;90280911491;Engenharia Civil;3;13708030;96.2;6.95;0;0;0.0;0;0
+202500586;Henrique Silva Silva;70687026270;Agronomia;3;13882606;95.1;8.47;0;0;0.0;0;0
+202500589;Murilo Ribeiro Mendes;03658048867;Ciência da Computação;3;13884496;79.5;5.8;1;0;0.0;0;0
+202500590;Diego Souza Nascimento;16381856890;Administração;4;13877097;89.2;6.47;1;0;0.0;1;0
+202500593;Otávio Rocha Rocha;22928197320;Direito;4;37840124;93.4;7.61;0;0;0.0;0;0
+202500594;Pedro Alves Dias;69841340720;Ciência da Computação;4;37706236;94.1;8.06;0;1;1290.0;0;0
+202500595;Gustavo Santos Vieira;73076122169;Agronomia;3;13973865;92.7;7.78;0;1;1490.0;0;0
+202500599;Eduarda Oliveira Soares;79616448650;Engenharia Civil;4;13739079;75.0;5.41;4;0;0.0;1;0
+202500600;Otávio Marques Nascimento;40920990029;Psicologia;3;13734542;90.3;7.69;0;2;2780.0;1;1
+202500609;João Machado Santos;50948798122;Ciência da Computação;4;13882614;91.7;7.36;0;0;0.0;1;0
+202500616;João Lima Martins;17918228863;Engenharia Civil;4;37701000;95.8;7.66;0;0;0.0;0;0
+202500618;Murilo Silva Mendes;41623223334;Administração;3;13841083;91.0;8.43;0;0;0.0;0;0
+202600004;Sofia Costa Almeida;78472671445;Enfermagem;1;37841240;71.2;3.61;4;3;3451.0;1;0
+202600018;João Costa Pereira;92419689828;Ciência da Computação;2;37841240;93.4;8.45;0;0;0.0;0;0
+202600020;Yasmin Alves Silva;68828347252;Enfermagem;2;37716022;94.1;7.7;0;0;0.0;0;0
+202600022;Vinícius Dias Carvalho;33735286666;Medicina Veterinária;2;13875043;92.7;6.96;1;0;0.0;0;0
+202600024;Felipe Vieira Santos;91697978037;Engenharia Civil;1;13874000;95.5;8.35;0;0;0.0;1;0
+202600028;Otávio Santos Silva;17922328370;Agronomia;2;37701000;92.4;7.9;1;0;0.0;1;0
+202600034;Eduarda Moreira Costa;61138759201;Ciência da Computação;2;13860690;95.1;7.74;0;0;0.0;2;0
+202600035;Diego Carvalho Ferreira;48836152007;Psicologia;2;37706236;79.9;5.86;2;2;2641.0;2;1
+202600040;Leonardo Martins Oliveira;59148335401;Enfermagem;2;13792044;93.8;7.35;0;0;0.0;1;0
+202600046;Sofia Freitas Ferreira;74781824455;Engenharia Civil;1;13882614;100.0;7.71;1;0;0.0;0;1
+202600054;Mariana Freitas Rocha;25021520547;Direito;1;37841240;64.9;3.04;4;2;2533.0;0;0
+202600057;Ana Barbosa Moreira;44469403768;Agronomia;2;37840124;92.4;8.04;0;0;0.0;0;0
+202600058;Otávio Vieira Carvalho;09876953982;Administração;1;13875043;91.7;6.74;2;0;0.0;0;0
+202600062;Lívia Carvalho Ribeiro;45007485128;Enfermagem;1;13899006;64.6;3.51;4;2;2380.0;0;0
+202600070;Amanda Marques Lopes;45791016930;Psicologia;1;37701326;67.0;2.15;4;2;2780.0;2;0
+202600082;Lucas Martins Martins;97367666916;Administração;1;37840124;92.0;8.25;0;0;0.0;0;0
+202600085;Letícia Nunes Rocha;45492845284;Administração;2;13874000;91.3;6.93;0;0;0.0;0;0
+202600087;Eduarda Silva Soares;32093065401;Direito;1;13875043;66.3;3.09;4;2;2980.0;1;1
+202600088;Paula Moreira Moreira;37600121247;Direito;2;13877097;70.8;4.0;4;1;1490.0;0;1
+202600091;André Machado Nascimento;95521111611;Enfermagem;2;13875570;94.8;7.54;0;0;0.0;1;0
+202600095;Rafael Ribeiro Rodrigues;13139002653;Engenharia Civil;1;13882606;93.1;7.72;0;0;0.0;0;0
+202600100;Otávio Souza Lopes;10424918870;Enfermagem;2;13884496;94.4;7.74;0;0;0.0;0;0
+202600101;André Costa Souza;90277521688;Direito;1;13860690;59.4;3.92;4;0;0.0;1;0
+202600102;Leonardo Costa Mendes;86422386150;Administração;1;13876441;93.8;8.09;0;0;0.0;0;0
+202600105;Murilo Mendes Lima;45302544105;Medicina Veterinária;2;13874885;93.4;7.1;1;0;0.0;0;1
+202600106;Isabela Costa Souza;78979486413;Direito;2;13860710;91.3;8.18;0;0;0.0;0;0
+202600111;Murilo Almeida Dias;92846312117;Engenharia Civil;2;13860710;80.2;5.31;3;2;3021.0;0;0
+202600114;Felipe Ferreira Ferreira;28498073030;Psicologia;1;13882606;92.7;7.51;0;0;0.0;0;0
+202600116;Júlia Ribeiro Lima;73531617524;Enfermagem;1;13874885;92.7;7.71;0;1;1190.0;0;0
+202600117;Helena Oliveira Carvalho;30869432974;Agronomia;2;13877097;98.6;7.56;0;0;0.0;0;0
+202600120;Otávio Santos Lima;17357207129;Medicina Veterinária;1;13990107;95.1;8.63;0;0;0.0;0;0
+202600126;Bruno Nunes Freitas;17158468348;Agronomia;2;13846435;68.8;2.33;4;4;5364.0;0;0
+202600134;João Machado Vieira;51776874579;Psicologia;1;13992034;93.1;7.95;0;0;0.0;0;0
+202600135;Gustavo Pereira Souza;05717865619;Medicina Veterinária;2;13703034;94.1;7.05;0;0;0.0;0;0
+202600136;Murilo Machado Freitas;07407872848;Agronomia;1;37701326;94.8;7.14;0;0;0.0;0;2
+202600140;Felipe Nascimento Freitas;00653082800;Ciência da Computação;2;13860710;93.1;8.38;0;0;0.0;1;0
+202600141;Amanda Pereira Lopes;61766752519;Engenharia Civil;1;13875570;93.4;8.15;0;0;0.0;1;0
+202600143;Letícia Nascimento Alves;42120808341;Enfermagem;1;13896032;93.8;8.32;0;0;0.0;1;3
+202600146;Camila Silva Fernandes;19325827549;Engenharia Civil;1;37840124;81.9;6.13;1;0;0.0;0;0
+202600150;Henrique Gomes Dias;23616447119;Medicina Veterinária;2;13860710;96.5;7.56;0;0;0.0;0;0
+202600152;Ana Soares Marques;29957021117;Psicologia;2;13870220;94.1;7.45;0;0;0.0;1;0
+202600160;Otávio Dias Mendes;65569436570;Engenharia Civil;2;13882606;96.2;8.14;0;0;0.0;0;0
+202600162;Ana Vieira Dias;95914251044;Agronomia;2;13875043;64.9;2.9;4;1;1490.0;3;0
+202600165;Felipe Silva Ferreira;59885287752;Medicina Veterinária;1;13781046;95.8;7.5;0;0;0.0;2;0
+202600174;Gustavo Lima Nunes;37467651961;Medicina Veterinária;2;37716022;91.7;8.01;0;0;0.0;0;0
+202600181;Murilo Nascimento Silva;20553485318;Agronomia;2;13860690;96.9;7.85;0;1;1490.0;0;0
+202600194;Natália Moreira Dias;34763668390;Psicologia;1;13874885;94.4;7.05;1;1;1251.0;0;0
+202600197;Lucas Pereira Machado;53398455328;Enfermagem;2;13870220;63.2;2.74;4;1;1190.0;1;0
+202600198;Leonardo Santos Fernandes;95174773689;Ciência da Computação;1;13876441;93.1;8.03;0;0;0.0;0;0
+202600204;Letícia Silva Ribeiro;23820717455;Ciência da Computação;2;37706236;78.8;6.16;3;2;2193.0;0;0
+202600205;Júlia Martins Soares;12329468504;Medicina Veterinária;2;13877097;94.1;7.19;0;0;0.0;0;0
+202600212;Vinícius Dias Vieira;09486050902;Direito;2;37841060;93.4;7.0;0;1;1341.0;1;1
+202600214;João Marques Oliveira;20630602662;Agronomia;2;37704390;62.8;2.11;4;1;1490.0;0;0
+202600218;Rafael Machado Lima;97843869921;Direito;1;13870220;96.2;7.89;0;0;0.0;1;0
+202600219;Eduarda Nascimento Mendes;38688821461;Ciência da Computação;1;13880232;65.3;3.75;4;1;1290.0;2;0
+202600220;Henrique Fernandes Ferreira;29017205601;Administração;1;13875570;63.5;4.06;4;2;1980.0;0;0
+202600222;Paula Oliveira Marques;93365531866;Administração;1;13874885;77.1;6.11;2;1;792.0;0;0
+202600225;Daniel Rodrigues Gomes;26004583790;Engenharia Civil;2;13876781;92.0;7.36;0;0;0.0;0;0
+202600244;Camila Gomes Santos;60619067810;Agronomia;2;13875043;96.2;7.44;1;0;0.0;1;0
+202600245;Lívia Pereira Santos;00537591419;Engenharia Civil;2;13874000;86.5;5.96;3;2;3180.0;0;0
+202600254;Bruno Nunes Lopes;19189953380;Engenharia Civil;1;37706236;92.7;8.32;0;0;0.0;1;0
+202600259;Bruno Freitas Santos;78710934790;Medicina Veterinária;2;13870220;93.4;7.59;0;1;2390.0;0;0
+202600260;Eduarda Silva Machado;18348045317;Ciência da Computação;1;13875043;90.3;7.78;0;1;1032.0;3;0
+202600262;Vinícius Gomes Nunes;11574849808;Medicina Veterinária;2;13875570;93.1;7.92;0;0;0.0;0;1
+202600263;André Mendes Moreira;79467342391;Psicologia;1;13739079;87.8;6.3;2;0;0.0;0;0
+202600264;Henrique Dias Lima;88128136070;Ciência da Computação;1;13990107;96.2;7.49;0;1;1032.0;1;0
+202600265;Helena Rocha Rocha;61794516999;Administração;2;13876781;93.1;6.95;1;0;0.0;0;1
+202600274;Paula Santos Andrade;95537074320;Psicologia;2;13731040;83.0;5.69;3;0;0.0;1;0
+202600281;Otávio Pereira Alves;57386788932;Engenharia Civil;1;13796168;92.4;7.47;0;0;0.0;0;0
+202600283;Lucas Freitas Ferreira;39248490999;Administração;1;13882614;94.4;8.26;0;0;0.0;0;0
+202600285;Júlia Pereira Martins;79078679913;Administração;1;13876441;95.1;8.64;0;0;0.0;1;0
+202600287;Gustavo Vieira Santos;02921596849;Engenharia Civil;1;13990017;78.8;5.75;3;1;1590.0;0;2
+202600294;Gustavo Silva Rocha;63393349899;Agronomia;1;13739079;77.1;5.89;2;0;0.0;0;0
+202600295;Leonardo Souza Martins;94176530677;Medicina Veterinária;2;13750104;95.1;7.85;0;0;0.0;0;0
+202600298;Enzo Andrade Alves;87035463496;Agronomia;2;13750104;94.4;8.56;0;0;0.0;0;0
+202600300;Bruno Machado Silva;51697162495;Administração;1;13874000;80.9;6.18;3;0;0.0;0;0
+202600301;João Ribeiro Rodrigues;30103617345;Engenharia Civil;2;13893207;88.2;6.06;2;1;1590.0;0;0
+202600302;Yasmin Pereira Rocha;34350232877;Ciência da Computação;2;37716022;90.3;8.03;0;0;0.0;1;0
+202600308;Eduarda Barbosa Moreira;22696173478;Medicina Veterinária;2;13734542;75.7;5.75;2;2;4780.0;0;1
+202600312;Ana Andrade Nascimento;43368081985;Agronomia;1;37704390;95.8;7.36;0;0;0.0;1;0
+202600323;Thiago Mendes Soares;11453284230;Enfermagem;2;13875043;95.8;7.3;1;0;0.0;0;0
+202600325;Isabela Costa Rocha;94970820104;Direito;1;13875043;70.1;2.59;4;2;2980.0;0;0
+202600327;Yasmin Gomes Lima;17781945409;Agronomia;1;13796168;93.1;8.04;0;0;0.0;0;1
+202600331;Thiago Rodrigues Nascimento;42705695303;Psicologia;1;13841083;91.7;6.71;0;0;0.0;0;0
+202600345;Isabela Costa Fernandes;84043670869;Psicologia;2;13874885;90.6;7.74;0;0;0.0;0;0
+202600347;Letícia Carvalho Souza;65065243166;Administração;1;13992034;90.6;8.71;0;0;0.0;1;0
+202600348;Henrique Gomes Moreira;99659698925;Direito;2;13875570;94.4;7.56;0;0;0.0;1;0
+202600356;Gabriela Martins Santos;50889772711;Psicologia;1;13875043;91.7;7.29;0;0;0.0;0;0
+202600359;Vinícius Vieira Oliveira;13894550848;Administração;2;13870220;82.6;6.19;2;0;0.0;0;0
+202600363;Rafael Nascimento Fernandes;73791718878;Psicologia;2;13876781;95.5;7.71;0;0;0.0;1;0
+202600373;Camila Freitas Rodrigues;36404220822;Direito;1;13876441;89.9;7.58;0;0;0.0;0;1
+202600374;Gabriela Alves Carvalho;90525195106;Engenharia Civil;2;13875570;93.4;7.36;1;0;0.0;0;0
+202600380;Henrique Costa Alves;78407071811;Direito;2;13866526;89.2;7.7;0;0;0.0;1;0
+202600381;Thiago Lima Mendes;29748422240;Direito;1;13877097;95.8;7.09;0;0;0.0;1;1
+202600392;Amanda Martins Costa;53883067717;Direito;2;37706236;92.7;7.3;0;1;1490.0;1;1
+202600393;Letícia Ribeiro Santos;58864846638;Direito;1;13876781;92.7;8.28;0;0;0.0;1;0
+202600397;Henrique Souza Marques;13702048502;Psicologia;2;13882606;95.5;6.89;0;0;0.0;1;0
+202600399;Lívia Costa Machado;45733495294;Enfermagem;2;37704390;94.8;8.03;0;0;0.0;0;0
+202600408;João Barbosa Marques;05462508409;Medicina Veterinária;1;13877097;92.0;8.05;0;0;0.0;1;0
+202600413;Fernanda Rocha Martins;48522733759;Ciência da Computação;2;13739079;92.0;7.58;0;0;0.0;0;1
+202600420;João Rodrigues Nunes;21787088383;Enfermagem;1;13875570;92.7;7.54;0;0;0.0;2;0
+202600427;Gustavo Souza Souza;28730970431;Engenharia Civil;2;13782044;92.7;8.95;0;0;0.0;0;0
+202600428;Rafael Alves Vieira;46578157689;Direito;1;13703606;92.7;7.51;0;0;0.0;0;1
+202600429;Lívia Souza Barbosa;15638089357;Enfermagem;2;13882606;95.8;7.31;0;1;1071.0;1;0
+202600431;Mariana Alves Oliveira;98945695958;Direito;1;13990107;94.1;7.83;0;1;1490.0;0;0
+202600435;Vinícius Dias Pereira;47150049923;Engenharia Civil;1;13877097;80.6;5.19;3;0;0.0;0;0
+202600437;Caio Machado Lima;76771006867;Administração;1;13864310;95.1;7.56;0;1;792.0;1;0
+202600438;Beatriz Marques Martins;60731720105;Administração;1;13875570;93.8;7.84;0;0;0.0;0;0
+202600440;Fernanda Costa Santos;25885568502;Enfermagem;1;13875043;96.9;7.28;0;0;0.0;0;0
+202600448;Enzo Vieira Silva;04381762274;Administração;1;13870220;80.6;5.54;3;0;0.0;0;0
+202600456;Paula Machado Mendes;65141184374;Engenharia Civil;1;13870220;96.9;7.97;0;0;0.0;0;0
+202600458;Leonardo Andrade Moreira;10408958596;Medicina Veterinária;2;13876781;90.6;7.39;0;1;2390.0;1;0
+202600461;Vinícius Ribeiro Nunes;89920006858;Administração;1;13876441;96.2;7.83;0;0;0.0;0;0
+202600463;Larissa Rodrigues Rocha;05680482967;Enfermagem;1;13992034;92.4;7.44;0;0;0.0;0;0
+202600472;Yasmin Moreira Soares;22426906553;Medicina Veterinária;2;13874000;89.9;7.89;0;0;0.0;0;0
+202600473;Isabela Oliveira Souza;07966709515;Agronomia;1;13877097;95.8;7.76;0;0;0.0;2;0
+202600474;Lucas Fernandes Barbosa;23849961265;Medicina Veterinária;2;13874000;92.7;7.88;0;0;0.0;0;0
+202600477;João Lopes Soares;88164724726;Agronomia;2;13874000;66.0;2.5;4;1;1490.0;0;0
+202600478;Fernanda Freitas Andrade;40258533102;Engenharia Civil;2;13877097;98.6;7.65;0;1;1431.0;2;0
+202600480;Gustavo Oliveira Andrade;42402273801;Direito;2;13990107;63.5;3.01;4;1;1341.0;1;0
+202600484;Letícia Moreira Marques;42530633223;Agronomia;1;13992002;95.1;7.46;0;0;0.0;0;0
+202600489;Natália Costa Silva;03299323300;Engenharia Civil;2;13884496;94.4;8.16;0;0;0.0;0;1
+202600491;Gustavo Freitas Nascimento;01559997613;Direito;1;13781046;71.9;3.67;4;1;1490.0;0;1
+202600496;Pedro Carvalho Lopes;30938885308;Agronomia;2;13875570;91.7;7.33;0;0;0.0;0;0
+202600502;Lucas Fernandes Rocha;94107130568;Psicologia;2;13893207;57.3;3.34;4;1;1390.0;0;0
+202600504;Júlia Costa Rocha;50384496032;Psicologia;1;13875570;93.8;7.9;0;0;0.0;1;0
+202600507;André Nascimento Machado;63525956851;Direito;1;13876441;96.5;6.67;0;0;0.0;0;0
+202600512;André Soares Mendes;28843816519;Engenharia Civil;1;13992034;96.5;7.94;0;0;0.0;1;0
+202600513;Beatriz Nunes Andrade;99948015541;Enfermagem;1;13899006;96.9;8.3;0;0;0.0;1;0
+202600522;Vitória Lopes Gomes;30354612875;Agronomia;1;37706236;93.1;7.14;0;1;1490.0;0;0
+202600523;Camila Rocha Mendes;64576698915;Enfermagem;2;13876781;92.7;7.6;0;1;1190.0;0;0
+202600526;Pedro Ribeiro Rocha;52329958048;Administração;2;13796168;82.3;5.05;3;1;891.0;0;1
+202600533;Leonardo Mendes Ribeiro;96337821394;Administração;2;13703034;93.8;7.42;0;1;792.0;0;1
+202600537;Diego Silva Ferreira;96160192523;Engenharia Civil;1;13875043;93.8;7.9;0;0;0.0;0;0
+202600551;Enzo Lopes Marques;94576073176;Medicina Veterinária;2;13882614;90.6;7.49;0;1;2390.0;0;0
+202600555;Ana Dias Mendes;98744218940;Enfermagem;1;13874885;94.4;8.11;0;0;0.0;0;2
+202600567;Amanda Nascimento Carvalho;11090903235;Direito;1;13860690;68.4;3.2;4;1;1490.0;0;1
+202600569;Felipe Souza Freitas;16079738716;Administração;2;13792044;88.5;7.8;0;0;0.0;0;1
+202600575;Daniel Pereira Barbosa;69759318369;Direito;1;13703034;94.4;7.35;1;0;0.0;0;1
+202600592;Mariana Alves Moreira;64476909523;Administração;2;13874885;89.2;5.63;2;1;990.0;1;0
+202600596;Vinícius Rodrigues Pereira;08598977705;Medicina Veterinária;1;37704390;89.6;7.89;0;0;0.0;0;0
+202600598;Yasmin Santos Ribeiro;74933364150;Direito;2;13782044;93.4;7.59;0;0;0.0;0;0
+202600606;Sofia Fernandes Freitas;63005104761;Enfermagem;2;13893207;82.3;5.53;4;1;1190.0;0;0
+202600611;Helena Santos Silva;59722081721;Medicina Veterinária;2;37841240;91.3;7.63;0;0;0.0;0;0
+202600612;João Vieira Lopes;26250610731;Enfermagem;2;13882606;94.8;7.26;0;0;0.0;1;0
+202600613;Gustavo Vieira Ferreira;66935337011;Administração;2;13876781;91.3;7.7;0;0;0.0;0;0
+202600615;Leonardo Moreira Alves;16549297605;Engenharia Civil;1;13992002;65.6;3.2;4;2;3180.0;1;0
+202600619;Rafael Carvalho Marques;51014679362;Agronomia;2;13874885;67.0;3.52;4;3;4172.0;0;0

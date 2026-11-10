@@ -1,0 +1,17 @@
+{
+  "rdbms" : {
+    "SQLITE" : {
+      "databaseName" : "${PROJECT_HOME}/../fontes/academico.db",
+      "pluginId" : "SQLITE",
+      "accessType" : 0,
+      "hostname" : "",
+      "password" : "",
+      "pluginName" : "SQLite",
+      "port" : "",
+      "attributes" : { },
+      "manualUrl" : "",
+      "username" : ""
+    }
+  },
+  "name" : "academico_sqlite"
+}

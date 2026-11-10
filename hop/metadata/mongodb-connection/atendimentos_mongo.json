@@ -1,0 +1,16 @@
+{
+  "name" : "atendimentos_mongo",
+  "hostname" : "localhost",
+  "port" : "27017",
+  "dbName" : "secretaria_unifeob",
+  "authenticationDatabaseName" : "",
+  "authenticationUser" : "",
+  "authenticationPassword" : "",
+  "authenticationMechanism" : "SCRAM_SHA_1",
+  "usingKerberos" : false,
+  "connectTimeoutMs" : "10000",
+  "socketTimeoutMs" : "",
+  "readPreference" : "primary",
+  "useAllReplicaSetMembers" : false,
+  "useSSLSocketFactory" : false
+}
