@@ -28,7 +28,6 @@ export default function App() {
     <div className="app">
       <header className="topo">
         <div className="marca">
-          <span className="logo">R</span>
           <div>
             <h1>Radar da Secretaria</h1>
             <small>Secretaria Acadêmica · UNIFEOB</small>

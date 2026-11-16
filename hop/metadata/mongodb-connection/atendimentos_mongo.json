@@ -10,7 +10,7 @@
   "usingKerberos" : false,
   "connectTimeoutMs" : "10000",
   "socketTimeoutMs" : "",
-  "readPreference" : "primary",
+  "readPreference" : "PRIMARY",
   "useAllReplicaSetMembers" : false,
   "useSSLSocketFactory" : false
 }

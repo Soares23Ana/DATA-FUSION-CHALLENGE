@@ -196,9 +196,13 @@ def abrir_protocolo(p: NovoProtocolo):
            "historico": [{"status": "ABERTO", "em": agora.isoformat(), "por": "Portal Radar"}]}
     col.insert_one(dict(doc))
     persistir_se_embutido()
-    feriados_no_caminho = [f for f in feriados(agora.year) + feriados(prazo.year)
-                           if agora.date().isoformat() < f["data"] <= prazo.isoformat()
-                           and date.fromisoformat(f["data"]).weekday() < 5]  # só os que caem em dia de semana
+    # Quando abertura e prazo caem no mesmo ano, feriados(ano) seria somado duas vezes: deduplica por data.
+    todos_feriados = {f["data"]: f for f in feriados(agora.year) + feriados(prazo.year)}.values()
+    feriados_no_caminho = sorted(
+        (f for f in todos_feriados
+         if agora.date().isoformat() < f["data"] <= prazo.isoformat()
+         and date.fromisoformat(f["data"]).weekday() < 5),  # só os que caem em dia de semana
+        key=lambda f: f["data"])
     return {**doc, "prazo_final": prazo.isoformat(), "prazo_dias_uteis": PRAZOS_DIAS_UTEIS[p.tipo],
             "feriados_considerados": feriados_no_caminho,
             "aviso": "Protocolo gravado no MongoDB. Execute a carga (ETL) para refletir nos painéis."}

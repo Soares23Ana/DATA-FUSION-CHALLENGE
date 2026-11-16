@@ -7,8 +7,10 @@ export default function RadarEvasao({ abrirAluno }) {
   const [opcoes, setOpcoes] = useState({ cursos: [], cidades: [] })
   const [linhas, setLinhas] = useState(null)
   const [erro, setErro] = useState('')
+  const [limite, setLimite] = useState(15)
 
   useEffect(() => { api.filtros().then(setOpcoes).catch(() => {}) }, [])
+  useEffect(() => { setLimite(15) }, [f])
   useEffect(() => {
     const t = setTimeout(() => api.risco(f).then(setLinhas).catch((e) => setErro(e.message)), 250)
     return () => clearTimeout(t)
@@ -44,7 +46,7 @@ export default function RadarEvasao({ abrirAluno }) {
                 <th className="num">Parc. atras.</th><th className="num">Em aberto</th><th>Score</th><th>Nível</th><th>Ação sugerida</th></tr>
             </thead>
             <tbody>
-              {linhas.map((r) => (
+              {linhas.slice(0, limite).map((r) => (
                 <tr key={r.ra} className="clicavel" onClick={() => abrirAluno(r.ra)}>
                   <td><b>{r.nome}</b><br /><small>RA {r.ra} · {r.periodo}º período</small></td>
                   <td>{r.curso}</td>
@@ -60,7 +62,15 @@ export default function RadarEvasao({ abrirAluno }) {
               ))}
             </tbody>
           </table>
-          <p className="nota">{linhas.length} alunos · clique em um aluno para ver a visão 360°</p>
+          <p className="nota">Mostrando {Math.min(limite, linhas.length)} de {linhas.length} alunos · clique em um aluno para ver a visão 360°</p>
+          {linhas.length > 15 && (
+            <div className="ver-mais">
+              {limite < linhas.length && (
+                <button onClick={() => setLimite(limite + 15)}>▾ Mostrar mais ({Math.min(15, linhas.length - limite)})</button>
+              )}
+              {limite > 15 && <button onClick={() => setLimite(15)}>▴ Mostrar menos</button>}
+            </div>
+          )}
         </div>
       )}
     </Cartao>

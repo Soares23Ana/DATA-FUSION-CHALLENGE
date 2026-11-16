@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { api, brl, dataBR } from '../api.js'
 import { BarraScore, Cartao, Carregando, Erro, LegendaScore, Nivel, Sla } from '../components.jsx'
 
+const MESES = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
 export default function Aluno360({ raInicial }) {
   const [ra, setRa] = useState(raInicial || '')
   const [d, setD] = useState(null)
@@ -69,11 +71,17 @@ export default function Aluno360({ raInicial }) {
             </Cartao>
             <Cartao titulo="Mensalidades" fonte="CSV financeiro → DuckDB">
               <div className="parcelas">
-                {d.mensalidades.map((m) => (
-                  <span key={m.competencia} className={`parcela ${m.status === 'ATRASADO' ? 'atrasada' : m.status === 'PAGO' ? 'paga' : ''}`} title={`${brl(m.valor)} · venc. ${dataBR(m.vencimento)}`}>
-                    {m.competencia.slice(0, 2)}
-                  </span>
-                ))}
+                {d.mensalidades.map((m) => {
+                  const mes = Number(m.competencia.slice(0, 2)) - 1
+                  const ano = m.competencia.slice(3)
+                  const situacao = m.status === 'PAGO' ? `pago em ${dataBR(m.data_pagamento)}` : m.status === 'ATRASADO' ? 'ATRASADA' : 'a vencer'
+                  return (
+                    <span key={m.competencia} className={`parcela ${m.status === 'ATRASADO' ? 'atrasada' : m.status === 'PAGO' ? 'paga' : ''}`}
+                      data-tip={`${MESES[mes]}/${ano}\n${brl(m.valor)} · venc. ${dataBR(m.vencimento)}\n${situacao}`}>
+                      {MESES[mes].slice(0, 3)}
+                    </span>
+                  )
+                })}
               </div>
               <div className="legenda"><span><i className="paga" />Pago</span><span><i className="atrasada" />Atrasado</span><span><i />A vencer</span></div>
             </Cartao>

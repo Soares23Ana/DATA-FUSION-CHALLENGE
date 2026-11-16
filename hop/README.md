@@ -12,11 +12,12 @@
 ## Passo a passo
 
 1. Instale o Java 17+ e baixe o Apache Hop (2.10 ou mais recente). Abra o `hop-gui.bat`.
-2. Rode antes `python dados/gerar_fontes.py` com o MongoDB ligado, para a coleção `atendimentos` existir.
-3. No Hop: **File → Projects → Add project**, nome `radar_secretaria`, pasta: esta pasta `hop/`.
-4. Abra `workflows/carga_completa.hwf` e clique em **Run**.
+2. **Hop 2.19 ou mais novo:** instale o plugin do MongoDB. No Hop, abra o **Marketplace** (ícone da lojinha na barra superior), pesquise `mongodb`, instale `hop-tech-mongodb` e **reinicie o Hop**. Sem isso, o bloco *Protocolos - MongoDB* aparece com erro (*The [MongoDbInput] plugin is missing*).
+3. Rode antes `python dados/gerar_fontes.py` com o MongoDB ligado, para a coleção `atendimentos` existir.
+4. No Hop: **File → Projects → Add project → In a folder**, nome `radar_secretaria`, pasta: esta pasta `hop/`.
+5. Abra `workflows/carga_completa.hwf` e clique em **Run**.
    - Para rodar só a consolidação, abra `pipelines/consolidar_aluno.hpl` e clique em **Run** (depois rode `python -m backend.etl`).
-5. Confirme que `staging/aluno_consolidado_hop.csv` foi criado. O painel passa a mostrar "consolidação via Apache Hop".
+6. Confirme que `staging/aluno_consolidado_hop.csv` foi criado. O painel passa a mostrar "consolidação via Apache Hop".
 
 ## O que o pipeline faz
 
@@ -38,7 +39,9 @@ Protocolos - MongoDB (pipeline de agregação $group por RA) ──────�
 
 ## Se algo não abrir
 
-Os arquivos `.hpl`/`.hwf` foram escritos à mão e **ainda não foram testados em uma instalação do Hop**. Se algum transform aparecer com erro:
+O pipeline `consolidar_aluno.hpl` foi testado no Apache Hop 2.20.0 (Java 25), com SQLite, CSV e MongoDB reais, e gerou o mesmo resultado do ETL em Python (620 alunos). O workflow `carga_completa.hwf` não foi executado nesse teste. Se algum transform aparecer com erro:
+
+- **Plugin do MongoDB ausente** (*The [MongoDbInput] plugin is missing*): instale `hop-tech-mongodb` pelo Marketplace e reinicie o Hop.
 
 - **Conexão MongoDB**: crie em *Metadata → MongoDB Connection* com o nome `atendimentos_mongo` (host `localhost`, porta `27017`, banco `secretaria_unifeob`).
 - **Conexão SQLite**: crie em *Metadata → Relational Database Connection* com o nome `academico_sqlite`, tipo SQLite, banco `${PROJECT_HOME}/../fontes/academico.db`.

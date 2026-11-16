@@ -50,14 +50,22 @@ export default function FilaAtendimento({ abrirAluno }) {
   const [ind, setInd] = useState(null)
   const [tipos, setTipos] = useState([])
   const [erro, setErro] = useState('')
+  const [limite, setLimite] = useState(15)
 
   useEffect(() => {
     api.indicadores().then(setInd).catch((e) => setErro(e.message))
     api.filtros().then((f) => setTipos(f.tipos_protocolo)).catch(() => {})
   }, [])
-  useEffect(() => { api.fila({ situacao }).then(setFila).catch((e) => setErro(e.message)) }, [situacao])
+  useEffect(() => {
+    setLimite(15)
+    api.fila({ situacao: situacao === 'RECENTES' ? '' : situacao }).then(setFila).catch((e) => setErro(e.message))
+  }, [situacao])
 
   if (erro) return <Erro msg={erro} />
+  // "Mais recentes": mesma fila, só reordenada pela data de abertura (a API continua igual)
+  const lista = fila && (situacao === 'RECENTES'
+    ? [...fila].sort((a, b) => String(b.aberto_em).localeCompare(String(a.aberto_em)) || b.protocolo.localeCompare(a.protocolo))
+    : fila)
   return (
     <>
       <div className="grade-2">
@@ -83,7 +91,7 @@ export default function FilaAtendimento({ abrirAluno }) {
 
       <Cartao titulo="Fila de protocolos em aberto" fonte="priorizada por prazo" acoes={
         <select value={situacao} onChange={(e) => setSituacao(e.target.value)}>
-          <option value="">Todas as situações</option><option>ATRASADO</option><option>VENCE EM BREVE</option><option>NO PRAZO</option>
+          <option value="">Todas as situações</option><option value="RECENTES">Mais recentes</option><option>ATRASADO</option><option>VENCE EM BREVE</option><option>NO PRAZO</option>
         </select>
       }>
         {!fila ? <Carregando /> : (
@@ -91,7 +99,7 @@ export default function FilaAtendimento({ abrirAluno }) {
             <table>
               <thead><tr><th>Protocolo</th><th>Aluno</th><th>Tipo</th><th>Canal</th><th>Aberto em</th><th>Prazo final</th><th>Situação</th><th>Risco do aluno</th></tr></thead>
               <tbody>
-                {fila.map((p) => (
+                {lista.slice(0, limite).map((p) => (
                   <tr key={p.protocolo} className="clicavel" onClick={() => abrirAluno(p.ra)}>
                     <td><code>{p.protocolo}</code></td>
                     <td><b>{p.nome}</b><br /><small>{p.curso}</small></td>
@@ -103,7 +111,15 @@ export default function FilaAtendimento({ abrirAluno }) {
                 ))}
               </tbody>
             </table>
-            <p className="nota">{fila.length} protocolos. A coluna "Risco do aluno" ajuda a priorizar: um trancamento de um aluno em risco alto é uma chance de reter esse aluno.</p>
+            <p className="nota">Mostrando {Math.min(limite, lista.length)} de {lista.length} protocolos. A coluna "Risco do aluno" ajuda a priorizar: um trancamento de um aluno em risco alto é uma chance de reter esse aluno.</p>
+            {lista.length > 15 && (
+              <div className="ver-mais">
+                {limite < lista.length && (
+                  <button onClick={() => setLimite(limite + 15)}>▾ Mostrar mais ({Math.min(15, lista.length - limite)})</button>
+                )}
+                {limite > 15 && <button onClick={() => setLimite(15)}>▴ Mostrar menos</button>}
+              </div>
+            )}
           </div>
         )}
       </Cartao>

@@ -158,7 +158,6 @@ GROUP BY a.ra, a.nome, a.cpf, c.nome, a.periodo, a.cep</sql>
     <copies>1</copies>
     <partitioning><method>none</method><schema_name/></partitioning>
     <send_true_to>Agrega financeiro por CPF</send_true_to>
-    <send_false_to/>
     <compare>
       <condition>
         <negated>N</negated>

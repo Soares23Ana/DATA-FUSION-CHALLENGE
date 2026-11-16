@@ -51491,5 +51491,22 @@
     "por": "sistema"
    }
   ]
+ },
+ {
+  "protocolo": "SEC-2026-01701",
+  "ra": "202400510",
+  "tipo": "Revisão de nota",
+  "canal": "Balcão",
+  "status": "ABERTO",
+  "aberto_em": "2026-11-15T17:32:41",
+  "concluido_em": null,
+  "detalhes": {},
+  "historico": [
+   {
+    "status": "ABERTO",
+    "em": "2026-11-15T17:32:41",
+    "por": "Portal Radar"
+   }
+  ]
  }
 ]

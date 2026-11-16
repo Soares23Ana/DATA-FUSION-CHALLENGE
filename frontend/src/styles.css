@@ -81,6 +81,7 @@ code { font-size: 12px; }
 .score-barra { flex: 1; height: 10px; background: var(--grade); border-radius: 99px; display: flex; overflow: hidden; }
 .score-barra span { height: 100%; }
 .c1 { background: var(--c1); } .c2 { background: var(--c2); } .c3 { background: var(--c3); } .c4 { background: var(--c4); }
+.legenda i.c1 { background: var(--c1); } .legenda i.c2 { background: var(--c2); } .legenda i.c3 { background: var(--c3); } .legenda i.c4 { background: var(--c4); }
 .legenda { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--suave); }
 .legenda i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; background: var(--grade); }
 
@@ -116,7 +117,35 @@ select, input { font: inherit; font-size: 13px; padding: 7px 10px; border: 1px s
 .risco-topo .score { flex: 1; }
 .fatores { font-size: 13px; padding-left: 18px; }
 .parcelas { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
-.parcela { width: 38px; height: 38px; border-radius: 8px; display: grid; place-items: center; font-size: 12px; background: var(--grade); color: var(--suave); }
+.parcela { width: 52px; height: 40px; border-radius: 8px; display: grid; place-items: center; font-size: 12.5px; font-weight: 500; background: var(--grade); color: var(--suave); }
 .parcela.paga, .legenda i.paga { background: var(--ok-claro); color: var(--ok); }
 .parcela.atrasada, .legenda i.atrasada { background: var(--perigo); color: #fff; }
 .detalhes span { display: inline-block; margin-right: 10px; color: var(--suave); }
+
+/* Caixas de informação (tooltips) dos gráficos: usam as cores do tema, com bom contraste e cantos arredondados */
+.recharts-default-tooltip {
+  background-color: var(--superficie) !important;
+  border: 1px solid color-mix(in srgb, var(--suave) 45%, var(--superficie)) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28) !important;
+  padding: 10px 14px !important;
+}
+.recharts-tooltip-label { color: var(--texto) !important; font-weight: 600; margin-bottom: 6px !important; }
+.recharts-tooltip-item { font-weight: 500; }
+.recharts-tooltip-cursor { fill: var(--primaria-clara) !important; fill-opacity: 0.6; stroke: var(--borda) !important; }
+
+/* Botões "Mostrar mais / menos" no fim das listas */
+.ver-mais { display: flex; justify-content: center; gap: 10px; margin: 8px 0 4px; }
+.ver-mais button { background: var(--superficie); color: var(--texto); border: 1.5px solid var(--borda); border-radius: 99px; padding: 8px 18px; font: inherit; font-weight: 600; cursor: pointer; }
+.ver-mais button:hover { background: var(--primaria-clara); }
+
+/* Balão das mensalidades (aparece na hora ao passar o mouse) */
+.parcela { position: relative; cursor: default; }
+.parcela[data-tip]:hover { z-index: 5; }
+.parcela[data-tip]:hover::after {
+  content: attr(data-tip); white-space: pre; position: absolute; bottom: calc(100% + 8px); left: 0;
+  background-color: color-mix(in srgb, var(--texto) 8%, var(--superficie)); color: var(--texto);
+  border: 1.5px solid color-mix(in srgb, var(--suave) 85%, var(--superficie)); border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28); padding: 8px 12px; font-size: 12.5px; font-weight: 500; line-height: 1.5; text-align: left;
+}
+.parcela[data-tip]:nth-child(n+7):hover::after { left: auto; right: 0; }

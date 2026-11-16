@@ -81,7 +81,7 @@ Níveis: **ALTO** a partir de 55 pontos e **MÉDIO** a partir de 30. A *ação s
 
 ## Como executar
 
-Pré-requisitos: Python 3.10+, Node 18+ e (recomendado) MongoDB Community ou MongoDB Atlas. Para o Hop é preciso Java 17+ e o [Apache Hop](https://hop.apache.org/download/).
+Pré-requisitos: Python 3.10+, Node 18+ e (recomendado) MongoDB Community ou MongoDB Atlas. Para o Hop é preciso Java 17+ e o [Apache Hop](https://hop.apache.org/download/). No Hop 2.19 ou mais novo, o MongoDB é um plugin opcional que precisa ser instalado (veja [hop/README.md](hop/README.md)).
 
 ```bash
 pip install -r requirements.txt
@@ -118,6 +118,8 @@ Abra http://localhost:5173. A documentação da API fica em http://localhost:800
 ### Executando a integração pelo Apache Hop
 
 Veja [hop/README.md](hop/README.md). Resumo: abra o projeto `hop/` no Hop GUI e execute o workflow `carga_completa.hwf`. Ele roda o pipeline de consolidação e depois chama `python -m backend.etl`, que carrega o DuckDB. No rodapé da *Visão geral* aparece "consolidação via **Apache Hop**".
+
+> **Plugin do MongoDB (Hop 2.19 ou mais novo):** o transform e a conexão do MongoDB não vêm no download. No Hop, abra o **Marketplace** (ícone da lojinha), pesquise `mongodb`, instale `hop-tech-mongodb` e reinicie o Hop. Sem o Hop, o ETL em Python (`python -m backend.etl`) faz a mesma consolidação.
 
 ## Estrutura
 
